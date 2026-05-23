@@ -90,7 +90,10 @@
           },
           {
             "name": "Lileep",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/lileep.png",
             "chest_opened_img": "images/pokemon/gen3/lileep-gray.png",
             "visibility_rules": [
@@ -99,7 +102,10 @@
           },
           {
             "name": "Anorith",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/anorith.png",
             "chest_opened_img": "images/pokemon/gen3/anorith-gray.png",
             "visibility_rules": [
@@ -108,7 +114,10 @@
           },
           {
             "name": "Shellos",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/shellos_w.png",
             "chest_opened_img": "images/pokemon/gen4/shellos_w-gray.png",
             "visibility_rules": [
@@ -117,7 +126,10 @@
           },
           {
             "name": "Chingling",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/chingling.png",
             "chest_opened_img": "images/pokemon/gen4/chingling-gray.png",
             "visibility_rules": [
@@ -175,7 +187,10 @@
           },
           {
             "name": "Machop",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/machop.png",
             "chest_opened_img": "images/pokemon/gen1/machop-gray.png",
             "visibility_rules": [
@@ -184,7 +199,10 @@
           },
           {
             "name": "Geodude",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/geodude.png",
             "chest_opened_img": "images/pokemon/gen1/geodude-gray.png",
             "visibility_rules": [
@@ -193,7 +211,10 @@
           },
           {
             "name": "Doduo",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/doduo.png",
             "chest_opened_img": "images/pokemon/gen1/doduo-gray.png",
             "visibility_rules": [
@@ -202,7 +223,10 @@
           },
           {
             "name": "Spinarak",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/spinarak.png",
             "chest_opened_img": "images/pokemon/gen2/spinarak-gray.png",
             "visibility_rules": [
@@ -211,7 +235,10 @@
           },
           {
             "name": "Starly",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/starly.png",
             "chest_opened_img": "images/pokemon/gen4/starly-gray.png",
             "visibility_rules": [
@@ -220,7 +247,10 @@
           },
           {
             "name": "Nidorina",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/nidorina.png",
             "chest_opened_img": "images/pokemon/gen1/nidorina-gray.png",
             "visibility_rules": [
@@ -229,7 +259,10 @@
           },
           {
             "name": "Nidorino",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/nidorino.png",
             "chest_opened_img": "images/pokemon/gen1/nidorino-gray.png",
             "visibility_rules": [
@@ -282,7 +315,10 @@
           },
           {
             "name": "Psyduck",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/psyduck.png",
             "chest_opened_img": "images/pokemon/gen1/psyduck-gray.png",
             "visibility_rules": [
@@ -291,7 +327,10 @@
           },
           {
             "name": "Poliwag",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/poliwag.png",
             "chest_opened_img": "images/pokemon/gen1/poliwag-gray.png",
             "visibility_rules": [
@@ -300,7 +339,10 @@
           },
           {
             "name": "Grimer",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/grimer.png",
             "chest_opened_img": "images/pokemon/gen1/grimer-gray.png",
             "visibility_rules": [
@@ -309,7 +351,10 @@
           },
           {
             "name": "Tangela",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/tangela.png",
             "chest_opened_img": "images/pokemon/gen1/tangela-gray.png",
             "visibility_rules": [
@@ -318,7 +363,10 @@
           },
           {
             "name": "Wooper",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/wooper.png",
             "chest_opened_img": "images/pokemon/gen2/wooper-gray.png",
             "visibility_rules": [
@@ -327,7 +375,10 @@
           },
           {
             "name": "Lotad",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/lotad.png",
             "chest_opened_img": "images/pokemon/gen3/lotad-gray.png",
             "visibility_rules": [
@@ -336,7 +387,10 @@
           },
           {
             "name": "Surskit",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/surskit.png",
             "chest_opened_img": "images/pokemon/gen3/surskit-gray.png",
             "visibility_rules": [
@@ -345,7 +399,10 @@
           },
           {
             "name": "Barboach",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/barboach.png",
             "chest_opened_img": "images/pokemon/gen3/barboach-gray.png",
             "visibility_rules": [
@@ -354,7 +411,10 @@
           },
           {
             "name": "Whiscash",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/whiscash.png",
             "chest_opened_img": "images/pokemon/gen3/whiscash-gray.png",
             "visibility_rules": [
@@ -419,7 +479,10 @@
           },
           {
             "name": "Caterpie",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/caterpie.png",
             "chest_opened_img": "images/pokemon/gen1/caterpie-gray.png",
             "visibility_rules": [
@@ -428,7 +491,10 @@
           },
           {
             "name": "Hoppip",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/hoppip.png",
             "chest_opened_img": "images/pokemon/gen2/hoppip-gray.png",
             "visibility_rules": [
@@ -437,7 +503,10 @@
           },
           {
             "name": "Budew",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/budew.png",
             "chest_opened_img": "images/pokemon/gen4/budew-gray.png",
             "visibility_rules": [
@@ -446,7 +515,10 @@
           },
           {
             "name": "Burmy",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/burmy_s.png",
             "chest_opened_img": "images/pokemon/gen4/burmy_s-gray.png",
             "visibility_rules": [
@@ -455,7 +527,10 @@
           },
           {
             "name": "Oddish",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/oddish.png",
             "chest_opened_img": "images/pokemon/gen1/oddish-gray.png",
             "visibility_rules": [
@@ -464,7 +539,10 @@
           },
           {
             "name": "Butterfree",
-            "access_rules": "[$isRecruitInLogic|0.55]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.55]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.55]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/butterfree.png",
             "chest_opened_img": "images/pokemon/gen1/butterfree-gray.png",
             "visibility_rules": [
@@ -473,7 +551,10 @@
           },
           {
             "name": "Paras",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/paras.png",
             "chest_opened_img": "images/pokemon/gen1/paras-gray.png",
             "visibility_rules": [
@@ -482,7 +563,10 @@
           },
           {
             "name": "Weedle",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/weedle.png",
             "chest_opened_img": "images/pokemon/gen1/weedle-gray.png",
             "visibility_rules": [
@@ -491,7 +575,10 @@
           },
           {
             "name": "Exeggutor",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/exeggutor.png",
             "chest_opened_img": "images/pokemon/gen1/exeggutor-gray.png",
             "visibility_rules": [
@@ -500,7 +587,10 @@
           },
           {
             "name": "Combee",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/combee.png",
             "chest_opened_img": "images/pokemon/gen4/combee-gray.png",
             "visibility_rules": [
@@ -509,7 +599,10 @@
           },
           {
             "name": "Gloom",
-            "access_rules": "[$isRecruitInLogic|0.496]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.496]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.496]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/gloom.png",
             "chest_opened_img": "images/pokemon/gen1/gloom-gray.png",
             "visibility_rules": [
@@ -518,7 +611,10 @@
           },
           {
             "name": "Kakuna",
-            "access_rules": "[$isRecruitInLogic|0.545]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.545]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.545]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/kakuna.png",
             "chest_opened_img": "images/pokemon/gen1/kakuna-gray.png",
             "visibility_rules": [
@@ -527,7 +623,10 @@
           },
           {
             "name": "Beedrill",
-            "access_rules": "[$isRecruitInLogic|0.545]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.545]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.545]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/beedrill.png",
             "chest_opened_img": "images/pokemon/gen1/beedrill-gray.png",
             "visibility_rules": [
@@ -589,7 +688,10 @@
           },
           {
             "name": "Spheal",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/spheal.png",
             "chest_opened_img": "images/pokemon/gen3/spheal-gray.png",
             "visibility_rules": [
@@ -598,7 +700,10 @@
           },
           {
             "name": "Krabby",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/krabby.png",
             "chest_opened_img": "images/pokemon/gen1/krabbygray.png",
             "visibility_rules": [
@@ -607,7 +712,10 @@
           },
           {
             "name": "Dratini",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/dratini.png",
             "chest_opened_img": "images/pokemon/gen1/dratini-gray.png",
             "visibility_rules": [
@@ -616,7 +724,10 @@
           },
           {
             "name": "Wingull",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/wingull.png",
             "chest_opened_img": "images/pokemon/gen3/wingull-gray.png",
             "visibility_rules": [
@@ -625,7 +736,10 @@
           },
           {
             "name": "Gastrodon",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/gastrodon_e.png",
             "chest_opened_img": "images/pokemon/gen4/gastrodon_e-gray.png",
             "visibility_rules": [
@@ -634,7 +748,10 @@
           },
           {
             "name": "Sealeo",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/sealeo.png",
             "chest_opened_img": "images/pokemon/gen3/sealeo-gray.png",
             "visibility_rules": [
@@ -740,7 +857,10 @@
           },
           {
             "name": "Beautifly",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/beautifly.png",
             "chest_opened_img": "images/pokemon/gen3/beautifly-gray.png",
             "visibility_rules": [
@@ -749,7 +869,10 @@
           },
           {
             "name": "Shroomish",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/shroomish.png",
             "chest_opened_img": "images/pokemon/gen3/shroomish-gray.png",
             "visibility_rules": [
@@ -758,7 +881,10 @@
           },
           {
             "name": "Parasect",
-            "access_rules": "[$isRecruitInLogic|0.45]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.45]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.45]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/parasect.png",
             "chest_opened_img": "images/pokemon/gen1/parasect-gray.png",
             "visibility_rules": [
@@ -767,7 +893,10 @@
           },
           {
             "name": "Natu",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/natu.png",
             "chest_opened_img": "images/pokemon/gen2/natu-gray.png",
             "visibility_rules": [
@@ -776,7 +905,10 @@
           },
           {
             "name": "Ariados",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/ariados.png",
             "chest_opened_img": "images/pokemon/gen2/ariados-gray.png",
             "visibility_rules": [
@@ -785,7 +917,10 @@
           },
           {
             "name": "Cascoon",
-            "access_rules": "[$isRecruitInLogic|0.395]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.395]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.395]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/cascoon.png",
             "chest_opened_img": "images/pokemon/gen3/cascoon-gray.png",
             "visibility_rules": [
@@ -794,7 +929,10 @@
           },
           {
             "name": "Venomoth",
-            "access_rules": "[$isRecruitInLogic|0.45]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.45]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.45]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/venomoth.png",
             "chest_opened_img": "images/pokemon/gen1/venomoth-gray.png",
             "visibility_rules": [
@@ -803,7 +941,10 @@
           },
           {
             "name": "Aerodactyl",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/aerodactyl.png",
             "chest_opened_img": "images/pokemon/gen1/aerodactyl-gray.png",
             "visibility_rules": [
@@ -812,7 +953,10 @@
           },
           {
             "name": "Pineco",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/pineco.png",
             "chest_opened_img": "images/pokemon/gen2/pineco-gray.png",
             "visibility_rules": [
@@ -821,7 +965,10 @@
           },
           {
             "name": "Bonsly",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/bonsly.png",
             "chest_opened_img": "images/pokemon/gen4/bonsly-gray.png",
             "visibility_rules": [
@@ -927,7 +1074,10 @@
           },
           {
             "name": "Hoothoot",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/hoothoot.png",
             "chest_opened_img": "images/pokemon/gen2/hoothoot-gray.png",
             "visibility_rules": [
@@ -936,7 +1086,10 @@
           },
           {
             "name": "Dunsparce",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/dunsparce.png",
             "chest_opened_img": "images/pokemon/gen2/dunsparce-gray.png",
             "visibility_rules": [
@@ -945,7 +1098,10 @@
           },
           {
             "name": "Smeargle",
-            "access_rules": "[$isRecruitInLogic|0.563]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.563]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.563]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/smeargle.png",
             "chest_opened_img": "images/pokemon/gen2/smeargle-gray.png",
             "visibility_rules": [
@@ -954,7 +1110,10 @@
           },
           {
             "name": "Cherubi",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/cherubi.png",
             "chest_opened_img": "images/pokemon/gen4/cherubi-gray.png",
             "visibility_rules": [
@@ -963,7 +1122,10 @@
           },
           {
             "name": "Skiploom",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/skiploom.png",
             "chest_opened_img": "images/pokemon/gen2/skiploom-gray.png",
             "visibility_rules": [
@@ -972,7 +1134,10 @@
           },
           {
             "name": "Zigzagoon",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/zigzagoon.png",
             "chest_opened_img": "images/pokemon/gen3/zigzagoon-gray.png",
             "visibility_rules": [
@@ -981,7 +1146,10 @@
           },
           {
             "name": "Pachirisu",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/pachirisu.png",
             "chest_opened_img": "images/pokemon/gen4/pachirisu-gray.png",
             "visibility_rules": [
@@ -990,7 +1158,10 @@
           },
           {
             "name": "Noctowl",
-            "access_rules": "[$isRecruitInLogic|0.395]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.395]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.395]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/noctowl.png",
             "chest_opened_img": "images/pokemon/gen2/noctowl-gray.png",
             "visibility_rules": [
@@ -999,7 +1170,10 @@
           },
           {
             "name": "Stantler",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/stantler.png",
             "chest_opened_img": "images/pokemon/gen2/stantler-gray.png",
             "visibility_rules": [
@@ -1008,7 +1182,10 @@
           },
           {
             "name": "Buneary",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/buneary.png",
             "chest_opened_img": "images/pokemon/gen4/buneary-gray.png",
             "visibility_rules": [
@@ -1017,7 +1194,10 @@
           },
           {
             "name": "Pinsir",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/pinsir.png",
             "chest_opened_img": "images/pokemon/gen1/pinsir-gray.png",
             "visibility_rules": [
@@ -1026,7 +1206,10 @@
           },
           {
             "name": "Breloom",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/breloom.png",
             "chest_opened_img": "images/pokemon/gen3/breloom-gray.png",
             "visibility_rules": [
@@ -1139,7 +1322,10 @@
           },
           {
             "name": "Farfetch'd",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/farfetch'd.png",
             "chest_opened_img": "images/pokemon/gen1/farfetch'd-gray.png",
             "visibility_rules": [
@@ -1148,7 +1334,10 @@
           },
           {
             "name": "Yanma",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/yanma.png",
             "chest_opened_img": "images/pokemon/gen2/yanma-gray.png",
             "visibility_rules": [
@@ -1157,7 +1346,10 @@
           },
           {
             "name": "Snubbull",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/snubbull.png",
             "chest_opened_img": "images/pokemon/gen2/snubbull-gray.png",
             "visibility_rules": [
@@ -1166,7 +1358,10 @@
           },
           {
             "name": "Slugma",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/slugma.png",
             "chest_opened_img": "images/pokemon/gen2/slugma-gray.png",
             "visibility_rules": [
@@ -1175,7 +1370,10 @@
           },
           {
             "name": "Magby",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/magby.png",
             "chest_opened_img": "images/pokemon/gen2/magby-gray.png",
             "visibility_rules": [
@@ -1184,7 +1382,10 @@
           },
           {
             "name": "Numel",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/numel.png",
             "chest_opened_img": "images/pokemon/gen3/numel-gray.png",
             "visibility_rules": [
@@ -1193,7 +1394,10 @@
           },
           {
             "name": "Kricketune",
-            "access_rules": "[$isRecruitInLogic|0.54]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.54]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.54]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/kricketune.png",
             "chest_opened_img": "images/pokemon/gen4/kricketune-gray.png",
             "visibility_rules": [
@@ -1202,7 +1406,10 @@
           },
           {
             "name": "Granbull",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/granbull.png",
             "chest_opened_img": "images/pokemon/gen2/granbull-gray.png",
             "visibility_rules": [
@@ -1211,7 +1418,10 @@
           },
           {
             "name": "Shuckle",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/shuckle.png",
             "chest_opened_img": "images/pokemon/gen2/shuckle-gray.png",
             "visibility_rules": [
@@ -1220,7 +1430,10 @@
           },
           {
             "name": "Volbeat",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/volbeat.png",
             "chest_opened_img": "images/pokemon/gen3/volbeat-gray.png",
             "visibility_rules": [
@@ -1229,7 +1442,10 @@
           },
           {
             "name": "Illumise",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/illumise.png",
             "chest_opened_img": "images/pokemon/gen3/illumise-gray.png",
             "visibility_rules": [
@@ -1238,7 +1454,10 @@
           },
           {
             "name": "Magmar",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/magmar.png",
             "chest_opened_img": "images/pokemon/gen1/magmar-gray.png",
             "visibility_rules": [
@@ -1293,7 +1512,10 @@
           },
           {
             "name": "Plusle",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/plusle.png",
             "chest_opened_img": "images/pokemon/gen3/plusle-gray.png",
             "visibility_rules": [
@@ -1302,7 +1524,10 @@
           },
           {
             "name": "Minun",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/minun.png",
             "chest_opened_img": "images/pokemon/gen3/minun-gray.png",
             "visibility_rules": [
@@ -1311,7 +1536,10 @@
           },
           {
             "name": "Mareep",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/mareep.png",
             "chest_opened_img": "images/pokemon/gen2/mareep-gray.png",
             "visibility_rules": [
@@ -1320,7 +1548,10 @@
           },
           {
             "name": "Phanpy",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/phanpy.png",
             "chest_opened_img": "images/pokemon/gen2/phanpy-gray.png",
             "visibility_rules": [
@@ -1329,7 +1560,10 @@
           },
           {
             "name": "Elekid",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/elekid.png",
             "chest_opened_img": "images/pokemon/gen2/elekid-gray.png",
             "visibility_rules": [
@@ -1338,7 +1572,10 @@
           },
           {
             "name": "Shinx",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/shinx.png",
             "chest_opened_img": "images/pokemon/gen4/shinx-gray.png",
             "visibility_rules": [
@@ -1347,7 +1584,10 @@
           },
           {
             "name": "Girafarig",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/girafarig.png",
             "chest_opened_img": "images/pokemon/gen2/girafarig-gray.png",
             "visibility_rules": [
@@ -1365,7 +1605,10 @@
           },
           {
             "name": "Flaaffy",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/flaaffy.png",
             "chest_opened_img": "images/pokemon/gen2/flaaffy-gray.png",
             "visibility_rules": [
@@ -1374,7 +1617,10 @@
           },
           {
             "name": "Pikachu",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/pikachu.png",
             "chest_opened_img": "images/pokemon/gen1/pikachu-gray.png",
             "visibility_rules": [
@@ -1383,7 +1629,10 @@
           },
           {
             "name": "Pichu",
-            "access_rules": "[$isRecruitInLogic|0.546]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.546]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.546]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/pichu.png",
             "chest_opened_img": "images/pokemon/gen2/pichu-gray.png",
             "visibility_rules": [
@@ -1392,7 +1641,10 @@
           },
           {
             "name": "Yanmega",
-            "access_rules": "[$isRecruitInLogic|0.45]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.45]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.45]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/yanmega.png",
             "chest_opened_img": "images/pokemon/gen4/yanmega-gray.png",
             "visibility_rules": [
@@ -1401,7 +1653,10 @@
           },
           {
             "name": "Electabuzz",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/electabuzz.png",
             "chest_opened_img": "images/pokemon/gen1/electabuzz-gray.png",
             "visibility_rules": [
@@ -1410,7 +1665,10 @@
           },
           {
             "name": "Tauros",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/tauros.png",
             "chest_opened_img": "images/pokemon/gen1/tauros-gray.png",
             "visibility_rules": [
@@ -1419,7 +1677,10 @@
           },
           {
             "name": "Dodrio",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/dodrio.png",
             "chest_opened_img": "images/pokemon/gen1/dodrio-gray.png",
             "visibility_rules": [
@@ -1428,7 +1689,10 @@
           },
           {
             "name": "Electrike",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/electrike.png",
             "chest_opened_img": "images/pokemon/gen3/electrike-gray.png",
             "visibility_rules": [
@@ -1437,7 +1701,10 @@
           },
           {
             "name": "Luxio",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/luxio.png",
             "chest_opened_img": "images/pokemon/gen4/luxio-gray.png",
             "visibility_rules": [
@@ -1446,7 +1713,10 @@
           },
           {
             "name": "Luxray",
-            "access_rules": "[$isRecruitInLogic|0.375]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.375]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.375]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/luxray.png",
             "chest_opened_img": "images/pokemon/gen4/luxray-gray.png",
             "visibility_rules": [
@@ -1455,7 +1725,10 @@
           },
           {
             "name": "Ampharos",
-            "access_rules": "[$isRecruitInLogic|0.45]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.45]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.45]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/ampharos.png",
             "chest_opened_img": "images/pokemon/gen2/ampharos-gray.png",
             "visibility_rules": [
@@ -1517,7 +1790,10 @@
           },
           {
             "name": "Baltoy",
-            "access_rules": "[$isRecruitInLogic|0.551]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.551]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.551]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/baltoy.png",
             "chest_opened_img": "images/pokemon/gen3/baltoy-gray.png",
             "visibility_rules": [
@@ -1526,7 +1802,10 @@
           },
           {
             "name": "Cubone",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/cubone.png",
             "chest_opened_img": "images/pokemon/gen1/cubone-gray.png",
             "visibility_rules": [
@@ -1535,7 +1814,10 @@
           },
           {
             "name": "Aron",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/aron.png",
             "chest_opened_img": "images/pokemon/gen3/aron-gray.png",
             "visibility_rules": [
@@ -1544,7 +1826,10 @@
           },
           {
             "name": "Cacnea",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/cacnea.png",
             "chest_opened_img": "images/pokemon/gen3/cacnea-gray.png",
             "visibility_rules": [
@@ -1553,7 +1838,10 @@
           },
           {
             "name": "Larvitar",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/larvitar.png",
             "chest_opened_img": "images/pokemon/gen2/larvitar-gray.png",
             "visibility_rules": [
@@ -1562,7 +1850,10 @@
           },
           {
             "name": "Sandshrew",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/sandshrew.png",
             "chest_opened_img": "images/pokemon/gen1/sandshrew-gray.png",
             "visibility_rules": [
@@ -1571,7 +1862,10 @@
           },
           {
             "name": "Trapinch",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/trapinch.png",
             "chest_opened_img": "images/pokemon/gen3/trapinch-gray.png",
             "visibility_rules": [
@@ -1580,7 +1874,10 @@
           },
           {
             "name": "Carnivine",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/carnivine.png",
             "chest_opened_img": "images/pokemon/gen4/carnivine-gray.png",
             "visibility_rules": [
@@ -1589,7 +1886,10 @@
           },
           {
             "name": "Rhyhorn",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/rhyhorn.png",
             "chest_opened_img": "images/pokemon/gen1/rhyhorn-gray.png",
             "visibility_rules": [
@@ -1598,7 +1898,10 @@
           },
           {
             "name": "Lairon",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/lairon.png",
             "chest_opened_img": "images/pokemon/gen3/lairon-gray.png",
             "visibility_rules": [
@@ -1607,7 +1910,10 @@
           },
           {
             "name": "Cacturne",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/cacturne.png",
             "chest_opened_img": "images/pokemon/gen3/cacturne-gray.png",
             "visibility_rules": [
@@ -1671,7 +1977,10 @@
           },
           {
             "name": "Nincada",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/nincada.png",
             "chest_opened_img": "images/pokemon/gen3/nincada-gray.png",
             "visibility_rules": [
@@ -1680,7 +1989,10 @@
           },
           {
             "name": "Vibrava",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/vibrava.png",
             "chest_opened_img": "images/pokemon/gen3/vibrava-gray.png",
             "visibility_rules": [
@@ -1689,7 +2001,10 @@
           },
           {
             "name": "Pupitar",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/pupitar.png",
             "chest_opened_img": "images/pokemon/gen2/pupitar-gray.png",
             "visibility_rules": [
@@ -1698,7 +2013,10 @@
           },
           {
             "name": "Skorupi",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/skorupi.png",
             "chest_opened_img": "images/pokemon/gen4/skorupi-gray.png",
             "visibility_rules": [
@@ -1707,7 +2025,10 @@
           },
           {
             "name": "Sandslash",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/sandslash.png",
             "chest_opened_img": "images/pokemon/gen1/sandslash-gray.png",
             "visibility_rules": [
@@ -1716,7 +2037,10 @@
           },
           {
             "name": "Mawile",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/mawile.png",
             "chest_opened_img": "images/pokemon/gen3/mawile-gray.png",
             "visibility_rules": [
@@ -1725,7 +2049,10 @@
           },
           {
             "name": "Tyranitar",
-            "access_rules": "[$isRecruitInLogic|0.375]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.375]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.375]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/tyranitar.png",
             "chest_opened_img": "images/pokemon/gen2/tyranitar-gray.png",
             "visibility_rules": [
@@ -1734,7 +2061,10 @@
           },
           {
             "name": "Hippopotas",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/hippopotas.png",
             "chest_opened_img": "images/pokemon/gen4/hippopotas-gray.png",
             "visibility_rules": [
@@ -1743,7 +2073,10 @@
           },
           {
             "name": "Ninjask",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/ninjask.png",
             "chest_opened_img": "images/pokemon/gen3/ninjask-gray.png",
             "visibility_rules": [
@@ -1796,7 +2129,10 @@
           },
           {
             "name": "Graveler",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/graveler.png",
             "chest_opened_img": "images/pokemon/gen1/graveler-gray.png",
             "visibility_rules": [
@@ -1805,7 +2141,10 @@
           },
           {
             "name": "Seviper",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/seviper.png",
             "chest_opened_img": "images/pokemon/gen3/seviper-gray.png",
             "visibility_rules": [
@@ -1814,7 +2153,10 @@
           },
           {
             "name": "Beldum",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/beldum.png",
             "chest_opened_img": "images/pokemon/gen3/beldum-gray.png",
             "visibility_rules": [
@@ -1823,7 +2165,10 @@
           },
           {
             "name": "Wormadam",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/wormadam_s.png",
             "chest_opened_img": "images/pokemon/gen4/wormadam_s-gray.png",
             "visibility_rules": [
@@ -1832,7 +2177,10 @@
           },
           {
             "name": "Riolu",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/riolu.png",
             "chest_opened_img": "images/pokemon/gen4/riolu-gray.png",
             "visibility_rules": [
@@ -1841,7 +2189,10 @@
           },
           {
             "name": "Cranidos",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/cranidos.png",
             "chest_opened_img": "images/pokemon/gen4/cranidos-gray.png",
             "visibility_rules": [
@@ -1850,7 +2201,10 @@
           },
           {
             "name": "Donphan",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/donphan.png",
             "chest_opened_img": "images/pokemon/gen2/donphan-gray.png",
             "visibility_rules": [
@@ -1859,7 +2213,10 @@
           },
           {
             "name": "Shieldon",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/shieldon.png",
             "chest_opened_img": "images/pokemon/gen4/shieldon-gray.png",
             "visibility_rules": [
@@ -1868,7 +2225,10 @@
           },
           {
             "name": "Golem",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/golem.png",
             "chest_opened_img": "images/pokemon/gen1/golem-gray.png",
             "visibility_rules": [
@@ -1941,7 +2301,10 @@
           },
           {
             "name": "Bagon",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/bagon.png",
             "chest_opened_img": "images/pokemon/gen3/bagon-gray.png",
             "visibility_rules": [
@@ -1950,7 +2313,10 @@
           },
           {
             "name": "Floatzel",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/floatzel.png",
             "chest_opened_img": "images/pokemon/gen4/floatzel-gray.png",
             "visibility_rules": [
@@ -1959,7 +2325,10 @@
           },
           {
             "name": "Wormadam",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/wormadam_p.png",
             "chest_opened_img": "images/pokemon/gen4/wormadam_p-gray.png",
             "visibility_rules": [
@@ -1968,7 +2337,10 @@
           },
           {
             "name": "Glameow",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/glameow.png",
             "chest_opened_img": "images/pokemon/gen4/glameow-gray.png",
             "visibility_rules": [
@@ -1977,7 +2349,10 @@
           },
           {
             "name": "Absol",
-            "access_rules": "[$isRecruitInLogic|0.563]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.563]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.563]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/absol.png",
             "chest_opened_img": "images/pokemon/gen3/absol-gray.png",
             "visibility_rules": [
@@ -1986,7 +2361,10 @@
           },
           {
             "name": "Glalie",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/glalie.png",
             "chest_opened_img": "images/pokemon/gen3/glalie-gray.png",
             "visibility_rules": [
@@ -1995,7 +2373,10 @@
           },
           {
             "name": "Froslass",
-            "access_rules": "[$isRecruitInLogic|0.395]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.395]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.395]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/froslass.png",
             "chest_opened_img": "images/pokemon/gen4/froslass-gray.png",
             "visibility_rules": [
@@ -2279,7 +2660,10 @@
           },
           {
             "name": "Kadabra",
-            "access_rules": "[$isRecruitInLogic|0.45]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.45]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.45]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/kadabra.png",
             "chest_opened_img": "images/pokemon/gen1/kadabra-gray.png",
             "visibility_rules": [
@@ -2288,7 +2672,10 @@
           },
           {
             "name": "Ralts",
-            "access_rules": "[$isRecruitInLogic|0.545]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.545]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.545]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/ralts.png",
             "chest_opened_img": "images/pokemon/gen3/ralts-gray.png",
             "visibility_rules": [
@@ -2297,7 +2684,10 @@
           },
           {
             "name": "Cherrim",
-            "access_rules": "[$isRecruitInLogic|0.51]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.51]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.51]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/cherrim.png",
             "chest_opened_img": "images/pokemon/gen4/cherrim-gray.png",
             "visibility_rules": [
@@ -2306,7 +2696,10 @@
           },
           {
             "name": "Houndoom",
-            "access_rules": "[$isRecruitInLogic|0.45]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.45]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.45]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/houndoom.png",
             "chest_opened_img": "images/pokemon/gen2/houndoom-gray.png",
             "visibility_rules": [
@@ -2315,7 +2708,10 @@
           },
           {
             "name": "Ninetales",
-            "access_rules": "[$isRecruitInLogic|0.45]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.45]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.45]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/ninetales.png",
             "chest_opened_img": "images/pokemon/gen1/ninetales-gray.png",
             "visibility_rules": [
@@ -2324,7 +2720,10 @@
           },
           {
             "name": "Alakazam",
-            "access_rules": "[$isRecruitInLogic|0.375]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.375]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.375]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/alakazam.png",
             "chest_opened_img": "images/pokemon/gen1/alakazam-gray.png",
             "visibility_rules": [
@@ -2333,7 +2732,10 @@
           },
           {
             "name": "Kirlia",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/kirlia.png",
             "chest_opened_img": "images/pokemon/gen3/kirlia-gray.png",
             "visibility_rules": [
@@ -2342,7 +2744,10 @@
           },
           {
             "name": "Vespiquen",
-            "access_rules": "[$isRecruitInLogic|0.45]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.45]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.45]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/vespiquen.png",
             "chest_opened_img": "images/pokemon/gen4/vespiquen-gray.png",
             "visibility_rules": [
@@ -2404,7 +2809,10 @@
           },
           {
             "name": "Seel",
-            "access_rules": "[$isRecruitInLogic|0.534]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.534]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.534]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/seel.png",
             "chest_opened_img": "images/pokemon/gen1/seel-gray.png",
             "visibility_rules": [
@@ -2413,7 +2821,10 @@
           },
           {
             "name": "Omanyte",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/omanyte.png",
             "chest_opened_img": "images/pokemon/gen1/omanyte-gray.png",
             "visibility_rules": [
@@ -2422,7 +2833,10 @@
           },
           {
             "name": "Kingler",
-            "access_rules": "[$isRecruitInLogic|0.45]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.45]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.45]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/kingler.png",
             "chest_opened_img": "images/pokemon/gen1/kingler-gray.png",
             "visibility_rules": [
@@ -2431,7 +2845,10 @@
           },
           {
             "name": "Pelipper",
-            "access_rules": "[$isRecruitInLogic|0.375]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.375]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.375]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/pelipper.png",
             "chest_opened_img": "images/pokemon/gen3/pelipper-gray.png",
             "visibility_rules": [
@@ -2440,7 +2857,10 @@
           },
           {
             "name": "Gastrodon",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/gastrodon_w.png",
             "chest_opened_img": "images/pokemon/gen4/gastrodon_w-gray.png",
             "visibility_rules": [
@@ -2449,7 +2869,10 @@
           },
           {
             "name": "Tentacool",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/tentacool.png",
             "chest_opened_img": "images/pokemon/gen1/tentacool-gray.png",
             "visibility_rules": [
@@ -2458,7 +2881,10 @@
           },
           {
             "name": "Dewgong",
-            "access_rules": "[$isRecruitInLogic|0.45]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.45]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.45]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/dewgong.png",
             "chest_opened_img": "images/pokemon/gen1/dewgong-gray.png",
             "visibility_rules": [
@@ -2467,7 +2893,10 @@
           },
           {
             "name": "Staryu",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/staryu.png",
             "chest_opened_img": "images/pokemon/gen1/staryu-gray.png",
             "visibility_rules": [
@@ -2476,7 +2905,10 @@
           },
           {
             "name": "Dragonair",
-            "access_rules": "[$isRecruitInLogic|0.45]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.45]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.45]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/dragonair.png",
             "chest_opened_img": "images/pokemon/gen1/dragonair-gray.png",
             "visibility_rules": [
@@ -2485,7 +2917,10 @@
           },
           {
             "name": "Walrein",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/walrein.png",
             "chest_opened_img": "images/pokemon/gen3/walrein-gray.png",
             "visibility_rules": [
@@ -2656,7 +3091,10 @@
           },
           {
             "name": "Poliwag",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/poliwag.png",
             "chest_opened_img": "images/pokemon/gen1/poliwag-gray.png",
             "visibility_rules": [
@@ -2665,7 +3103,10 @@
           },
           {
             "name": "Wooper",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/wooper.png",
             "chest_opened_img": "images/pokemon/gen2/wooper-gray.png",
             "visibility_rules": [
@@ -2674,7 +3115,10 @@
           },
           {
             "name": "Lotad",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/lotad.png",
             "chest_opened_img": "images/pokemon/gen3/lotad-gray.png",
             "visibility_rules": [
@@ -2683,7 +3127,10 @@
           },
           {
             "name": "Barboach",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/barboach.png",
             "chest_opened_img": "images/pokemon/gen3/barboach-gray.png",
             "visibility_rules": [
@@ -2692,7 +3139,10 @@
           },
           {
             "name": "Masquerain",
-            "access_rules": "[$isRecruitInLogic|0.395]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.395]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.395]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/masquerain.png",
             "chest_opened_img": "images/pokemon/gen3/masquerain-gray.png",
             "visibility_rules": [
@@ -2754,7 +3204,10 @@
           },
           {
             "name": "Venomoth",
-            "access_rules": "[$isRecruitInLogic|0.45]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.45]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.45]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/venomoth.png",
             "chest_opened_img": "images/pokemon/gen1/venomoth-gray.png",
             "visibility_rules": [
@@ -2763,7 +3216,10 @@
           },
           {
             "name": "Ampharos",
-            "access_rules": "[$isRecruitInLogic|0.45]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.45]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.45]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/ampharos.png",
             "chest_opened_img": "images/pokemon/gen2/ampharos-gray.png",
             "visibility_rules": [
@@ -2772,7 +3228,10 @@
           },
           {
             "name": "Granbull",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/granbull.png",
             "chest_opened_img": "images/pokemon/gen2/granbull-gray.png",
             "visibility_rules": [
@@ -2781,7 +3240,10 @@
           },
           {
             "name": "Shuckle",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/shuckle.png",
             "chest_opened_img": "images/pokemon/gen2/shuckle-gray.png",
             "visibility_rules": [
@@ -2790,7 +3252,10 @@
           },
           {
             "name": "Dustox",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/dustox.png",
             "chest_opened_img": "images/pokemon/gen3/dustox-gray.png",
             "visibility_rules": [
@@ -2799,7 +3264,10 @@
           },
           {
             "name": "Wormadam",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/wormadam_t.png",
             "chest_opened_img": "images/pokemon/gen4/wormadam_t-gray.png",
             "visibility_rules": [
@@ -2808,7 +3276,10 @@
           },
           {
             "name": "Gible",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/gible.png",
             "chest_opened_img": "images/pokemon/gen4/gible-gray.png",
             "visibility_rules": [
@@ -2870,7 +3341,10 @@
           },
           {
             "name": "Exeggcute",
-            "access_rules": "[$isRecruitInLogic|0.5549999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5549999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5549999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/exeggcute.png",
             "chest_opened_img": "images/pokemon/gen1/exeggcute-gray.png",
             "visibility_rules": [
@@ -2879,7 +3353,10 @@
           },
           {
             "name": "Skiploom",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/skiploom.png",
             "chest_opened_img": "images/pokemon/gen2/skiploom-gray.png",
             "visibility_rules": [
@@ -2888,7 +3365,10 @@
           },
           {
             "name": "Yanma",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/yanma.png",
             "chest_opened_img": "images/pokemon/gen2/yanma-gray.png",
             "visibility_rules": [
@@ -2897,7 +3377,10 @@
           },
           {
             "name": "Silcoon",
-            "access_rules": "[$isRecruitInLogic|0.395]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.395]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.395]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/silcoon.png",
             "chest_opened_img": "images/pokemon/gen3/silcoon-gray.png",
             "visibility_rules": [
@@ -2906,7 +3389,10 @@
           },
           {
             "name": "Beautifly",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/beautifly.png",
             "chest_opened_img": "images/pokemon/gen3/beautifly-gray.png",
             "visibility_rules": [
@@ -2915,7 +3401,10 @@
           },
           {
             "name": "Cascoon",
-            "access_rules": "[$isRecruitInLogic|0.395]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.395]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.395]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/cascoon.png",
             "chest_opened_img": "images/pokemon/gen3/cascoon-gray.png",
             "visibility_rules": [
@@ -2924,7 +3413,10 @@
           },
           {
             "name": "Burmy",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/burmy_p.png",
             "chest_opened_img": "images/pokemon/gen4/burmy_p-gray.png",
             "visibility_rules": [
@@ -2986,7 +3478,10 @@
           },
           {
             "name": "Skiploom",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/skiploom.png",
             "chest_opened_img": "images/pokemon/gen2/skiploom-gray.png",
             "visibility_rules": [
@@ -2995,7 +3490,10 @@
           },
           {
             "name": "Breloom",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/breloom.png",
             "chest_opened_img": "images/pokemon/gen3/breloom-gray.png",
             "visibility_rules": [
@@ -3004,7 +3502,10 @@
           },
           {
             "name": "Staravia",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/staravia.png",
             "chest_opened_img": "images/pokemon/gen4/staravia-gray.png",
             "visibility_rules": [
@@ -3066,7 +3567,10 @@
           },
           {
             "name": "Nidorina",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/nidorina.png",
             "chest_opened_img": "images/pokemon/gen1/nidorina-gray.png",
             "visibility_rules": [
@@ -3075,7 +3579,10 @@
           },
           {
             "name": "Nidorino",
-            "access_rules": "[$isRecruitInLogic|0.5]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/nidorino.png",
             "chest_opened_img": "images/pokemon/gen1/nidorino-gray.png",
             "visibility_rules": [
@@ -3084,7 +3591,10 @@
           },
           {
             "name": "Golbat",
-            "access_rules": "[$isRecruitInLogic|0.45]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.45]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.45]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/golbat.png",
             "chest_opened_img": "images/pokemon/gen1/golbat-gray.png",
             "visibility_rules": [
@@ -3093,7 +3603,10 @@
           },
           {
             "name": "Machop",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/machop.png",
             "chest_opened_img": "images/pokemon/gen1/machop-gray.png",
             "visibility_rules": [
@@ -3146,7 +3659,10 @@
           },
           {
             "name": "Caterpie",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/caterpie.png",
             "chest_opened_img": "images/pokemon/gen1/caterpie-gray.png",
             "visibility_rules": [
@@ -3155,7 +3671,10 @@
           },
           {
             "name": "Hoppip",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen2/hoppip.png",
             "chest_opened_img": "images/pokemon/gen2/hoppip-gray.png",
             "visibility_rules": [
@@ -3164,7 +3683,10 @@
           },
           {
             "name": "Starly",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/starly.png",
             "chest_opened_img": "images/pokemon/gen4/starly-gray.png",
             "visibility_rules": [
@@ -3173,7 +3695,10 @@
           },
           {
             "name": "Budew",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/budew.png",
             "chest_opened_img": "images/pokemon/gen4/budew-gray.png",
             "visibility_rules": [
@@ -3182,7 +3707,10 @@
           },
           {
             "name": "Burmy",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen4/burmy_t.png",
             "chest_opened_img": "images/pokemon/gen4/burmy_t-gray.png",
             "visibility_rules": [
@@ -3191,7 +3719,10 @@
           },
           {
             "name": "Oddish",
-            "access_rules": "[$isRecruitInLogic|0.577]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.577]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.577]"
+            ],
             "chest_unopened_img": "images/pokemon/gen1/oddish.png",
             "chest_opened_img": "images/pokemon/gen1/oddish-gray.png",
             "visibility_rules": [
@@ -3200,7 +3731,10 @@
           },
           {
             "name": "Wurmple",
-            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
+            "access_rules": [
+              "Recruitment, [$isRecruitInLogic|0.5589999999999999]",
+              "ProgressiveRecruitment:1, [$isRecruitInLogic|0.5589999999999999]"
+            ],
             "chest_unopened_img": "images/pokemon/gen3/wurmple.png",
             "chest_opened_img": "images/pokemon/gen3/wurmple-gray.png",
             "visibility_rules": [

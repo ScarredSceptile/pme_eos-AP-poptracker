@@ -129,7 +129,6 @@ end
 function isRecruitInLogic(odds)
 	odds = tonumber(odds)
 	local difficulty = tonumber(getPlayerDifficulty())
-	print()
 	if odds >= difficulty then
 		return recruitStartInLogic()
 	end
@@ -170,7 +169,6 @@ function canBeRecruited(odds)
 end
 
 function recruitStartInLogic()
-	print("Test")
 	return Tracker:ProviderCountForCode("Recruitment") == 1 or Tracker:ProviderCountForCode("ProgressiveRecruitment") >= 1
 end
 
