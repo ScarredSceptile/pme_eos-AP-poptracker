@@ -130,7 +130,7 @@ function isRecruitInLogic(odds)
 	odds = tonumber(odds)
 	local difficulty = tonumber(getPlayerDifficulty())
 	if odds >= difficulty then
-		return recruitStartInLogic()
+		return true -- Logic is handled in the locations
 	end
 	if odds + 0.100 >= difficulty then
 		return recruitEarlyInLogic()
@@ -168,12 +168,8 @@ function canBeRecruited(odds)
 	return false
 end
 
-function recruitStartInLogic()
-	return Tracker:ProviderCountForCode("Recruitment") == 1 or Tracker:ProviderCountForCode("ProgressiveRecruitment") >= 1
-end
-
 function recruitEarlyInLogic()
-	return recruitStartInLogic() and (Tracker:ProviderCountForCode("Amber Tear") == 1 or Tracker:ProviderCountForCode("Friend Bow") == 1 or Tracker:ProviderCountForCode("Golden Mask") == 1 or Tracker:ProviderCountForCode("ProgressiveRecruitment") >= 2)
+	return (Tracker:ProviderCountForCode("Amber Tear") == 1 or Tracker:ProviderCountForCode("Friend Bow") == 1 or Tracker:ProviderCountForCode("Golden Mask") == 1 or Tracker:ProviderCountForCode("ProgressiveRecruitment") >= 2)
 end
 
 function recruitMidInLogic()
