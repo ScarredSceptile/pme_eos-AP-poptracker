@@ -17,30 +17,14 @@
             "h_alignment": "left",
             "rows": [
               [
-			    "Main Game Unlock"
                 "RelicFragmentCount",
                 "BagUpgrades"
-              ],
-              [
-                "Mystery Part",
-                "Secret Slab",
-                "Amber Tear",
-                "Friend Bow",
-                "Miracle Chest",
-                "Wonder Chest"
-              ],
-              [
-                "Bidoof SE",
-                "Igglybuff SE",
-                "Sunflora SE",
-                "Team Charm SE",
-                "Grovyle + Dusknoir SE"
               ],
               [
                 "Hot Springs",
                 "Recruit Evolution",
                 "Hero Evolution",
-                "Recruitment",
+                "ProgressiveRecruitment",
                 "Formation Control"
               ]
             ]

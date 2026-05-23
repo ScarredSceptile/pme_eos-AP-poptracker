@@ -267,6 +267,18 @@ function apply_slot_data(slot_data)
 	if slot_data["CursedAegisCave"] then
 		Tracker:FindObjectForCode("CursedAegisCave").Active = tonumber(slot_data["CursedAegisCave"]) == 1
 	end
+	if slot_data["RecruitSanity"] then
+		Tracker:FindObjectForCode("RecruitAll").Active = tonumber(slot_data["RecruitSanity"]) == 1
+	end
+	if slot_data["RecruitEvolution"] then
+		Tracker:FindObjectForCode("RecruitEvolution").Active = tonumber(slot_data["RecruitEvolution"]) == 1
+	end
+	if slot_data["RecruitLongLocations"] then
+		Tracker:FindObjectForCode("RecruitLongLocations").Active = tonumber(slot_data["RecruitLongLocations"]) == 1
+	end
+	if slot_data["RecruitPercentageRequired"] then
+		Tracker:FindObjectForCode("RecruitDifficulty").CurrentStage = tonumber(slot_data["RecruitPercentageRequired"])
+	end
 end
 
 -- called right after an AP slot is connected

@@ -6,6 +6,7 @@ function updateItemGrid(code)
 	local specialEpisodeSanity = Tracker:ProviderCountForCode("SpecialEpisodeSanity")
 	local cursedAegisCave = Tracker:ProviderCountForCode("CursedAegisCave")
 	local longLocations = Tracker:ProviderCountForCode("LongLocations")
+	local progressiveRecruit = Tracker:ProviderCountForCode("ProgressiveRecruitItems")
 	
 	-- Dungeon Complete
 	if longLocations == 1 and darkraiGoal == 1 then
@@ -34,22 +35,40 @@ function updateItemGrid(code)
 	end
 	
 	-- Items
-	if cursedAegisCave == 1 and darkraiGoal == 1 and excludeSpecial == 1 then
+	if cursedAegisCave == 1 and darkraiGoal == 1 and excludeSpecial == 1 and progressiveRecruit == 1 then
+		Tracker:AddLayouts("layouts/items_late_cursed_no_special_progressive_recruit.json")
+	elseif cursedAegisCave == 1 and darkraiGoal == 1 and excludeSpecial == 1 then
 		Tracker:AddLayouts("layouts/items_late_cursed_no_special.json")
+	elseif cursedAegisCave == 1 and darkraiGoal == 1 and specialEpisodeSanity == 1 and progressiveRecruit then
+		Tracker:AddLayouts("layouts/items_late_cursed_special_progressive_recruit.json")
 	elseif cursedAegisCave == 1 and darkraiGoal == 1 and specialEpisodeSanity == 1 then
 		Tracker:AddLayouts("layouts/items_late_cursed_special.json")
+	elseif cursedAegisCave == 1 and darkraiGoal == 1 and progressiveRecruit == 1 then
+		Tracker:AddLayouts("layouts/items_late_cursed_progressive_recruit.json")
 	elseif cursedAegisCave == 1 and darkraiGoal == 1 then
 		Tracker:AddLayouts("layouts/items_late_cursed.json")
+	elseif darkraiGoal == 1 and excludeSpecial == 1 and progressiveRecruit == 1 then
+		Tracker:AddLayouts("layouts/items_late_no_special_progressive_recruit.json")
 	elseif darkraiGoal == 1 and excludeSpecial == 1 then
 		Tracker:AddLayouts("layouts/items_late_no_special.json")
+	elseif darkraiGoal == 1 and specialEpisodeSanity == 1 and progressiveRecruit == 1 then
+		Tracker:AddLayouts("layouts/items_late_special_progressive_recruit.json")
 	elseif darkraiGoal == 1 and specialEpisodeSanity == 1 then
 		Tracker:AddLayouts("layouts/items_late_special.json")
+	elseif darkraiGoal == 1 and progressiveRecruit == 1 then
+		Tracker:AddLayouts("layouts/items_late_progressive_recruit.json")
 	elseif darkraiGoal == 1 then
 		Tracker:AddLayouts("layouts/items_late.json")
+	elseif excludeSpecial == 1 and progressiveRecruit == 1 then
+		Tracker:AddLayouts("layouts/items_no_special_progressive_recruit.json")
 	elseif excludeSpecial == 1 then
 		Tracker:AddLayouts("layouts/items_no_special.json")
+	elseif specialEpisodeSanity == 1 and progressiveRecruit == 1 then
+		Tracker:AddLayouts("layouts/items_special_progressive_recruit.json")
 	elseif specialEpisodeSanity == 1 then
 		Tracker:AddLayouts("layouts/items_special.json")
+	elseif progressiveRecruit == 1 then
+		Tracker:AddLayouts("layouts/items_progressive_recruit.json")
 	else
 		Tracker:AddLayouts("layouts/items.json")
 	end

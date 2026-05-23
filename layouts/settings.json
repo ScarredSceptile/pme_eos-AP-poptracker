@@ -38,13 +38,19 @@
               [
                 "DrinkEvents",
                 "SpindaDrinks",
-				"RecruitAll"
+                "LongLocations",
+				"RecruitLongLocations"
               ],
+			  [
+				"RecruitAll",
+				"RecruitEvolution",
+				"RecruitDifficulty",
+				"ProgressiveRecruitItems"
+			  ],
               [
                 "ExcludeSpecial",
                 "SpecialEpisodeSanity",
-                "CursedAegisCave",
-                "LongLocations"
+                "CursedAegisCave"
               ]
             ]
           }

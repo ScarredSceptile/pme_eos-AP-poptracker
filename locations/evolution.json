@@ -1,1517 +1,2229 @@
 [
   {
-    "name": "Recruitment",
-    "access_rules": [ "Recruitment, Recruit Evolution" ],
-    "visibility_rules": "RecruitAll",
+    "name": "Evolution",
+    "access_rules": [
+      "Recruitment, Recruit Evolution"
+    ],
+    "visibility_rules": [
+      "RecruitAll, RecruitEvolution"
+    ],
     "children": [
       {
         "name": "Luminous Spring",
         "sections": [
           {
             "name": "Ivysaur",
-            "access_rules": [ "Bulbasaur" ],
+            "access_rules": "Bulbasaur, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/ivysaur.png",
-            "chest_opened_img": "images/pokemon/gen1/ivysaur-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/ivysaur-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Venusaur",
-            "access_rules": [ "Bulbasaur", "Ivysaur" ],
+            "access_rules": "Ivysaur, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen1/venusaur.png",
-            "chest_opened_img": "images/pokemon/gen1/venusaur-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/venusaur-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Charmeleon",
-            "access_rules": [ "Charmander" ],
+            "access_rules": "Charmander, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/charmeleon.png",
-            "chest_opened_img": "images/pokemon/gen1/charmeleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/charmeleon-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Charizard",
-            "access_rules": [ "Charmander", "Charmeleon" ],
+            "access_rules": "Charmeleon, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen1/charizard.png",
-            "chest_opened_img": "images/pokemon/gen1/charizard-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/charizard-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Wartortle",
-            "access_rules": [ "Squirtle" ],
+            "access_rules": "Squirtle, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/wartortle.png",
-            "chest_opened_img": "images/pokemon/gen1/wartortle-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/wartortle-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Blastoise",
-            "access_rules": [ "Squirtle", "Wartortle" ],
+            "access_rules": "Wartortle, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen1/blastoise.png",
-            "chest_opened_img": "images/pokemon/gen1/blastoise-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/blastoise-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Metapod",
-            "access_rules": [ "Caterpie" ],
+            "access_rules": "Caterpie, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/metapod.png",
-            "chest_opened_img": "images/pokemon/gen1/metapod-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/metapod-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Butterfree",
-            "access_rules": [ "Caterpie", "Metapod" ],
+            "access_rules": "Metapod, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen1/butterfree.png",
-            "chest_opened_img": "images/pokemon/gen1/butterfree-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/butterfree-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Kakuna",
-            "access_rules": [ "Weedle" ],
+            "access_rules": "Weedle, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/kakuna.png",
-            "chest_opened_img": "images/pokemon/gen1/kakuna-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/kakuna-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Beedrill",
-            "access_rules": [ "Weedle", "Kakuna" ],
+            "access_rules": "Kakuna, [$isRecruitInLogic|0.545]",
             "chest_unopened_img": "images/pokemon/gen1/beedrill.png",
-            "chest_opened_img": "images/pokemon/gen1/beedrill-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/beedrill-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.545"
+            ]
           },
           {
             "name": "Pidgeotto",
-            "access_rules": [ "Pidgey" ],
+            "access_rules": "Pidgey, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/pidgeotto.png",
-            "chest_opened_img": "images/pokemon/gen1/pidgeotto-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/pidgeotto-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Pidgeot",
-            "access_rules": [ "Pidgey", "Pidgeotto" ],
+            "access_rules": "Pidgeotto, [$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen1/pidgeot.png",
-            "chest_opened_img": "images/pokemon/gen1/pidgeot-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/pidgeot-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Raticate",
-            "access_rules": [ "Rattata" ],
+            "access_rules": "Rattata, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/raticate.png",
-            "chest_opened_img": "images/pokemon/gen1/raticate-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/raticate-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Fearow",
-            "access_rules": [ "Spearow" ],
+            "access_rules": "Spearow, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/fearow.png",
-            "chest_opened_img": "images/pokemon/gen1/fearow-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/fearow-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Arbok",
-            "access_rules": [ "Ekans" ],
+            "access_rules": "Ekans, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen1/arbok.png",
-            "chest_opened_img": "images/pokemon/gen1/arbok-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/arbok-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Pikachu",
-            "access_rules": [ "Pichu" ],
+            "access_rules": "Pichu, $isEvolutionItemAvailable, [$isRecruitInLogic|0.546]",
             "chest_unopened_img": "images/pokemon/gen1/pikachu.png",
-            "chest_opened_img": "images/pokemon/gen1/pikachu-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/pikachu-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.546"
+            ]
           },
           {
             "name": "Raichu",
-            "access_rules": [ "Pichu", "Pikachu" ],
+            "access_rules": "Pikachu, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/raichu.png",
-            "chest_opened_img": "images/pokemon/gen1/raichu-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/raichu-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Sandslash",
-            "access_rules": [ "Sandshrew" ],
+            "access_rules": "Sandshrew, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/sandslash.png",
-            "chest_opened_img": "images/pokemon/gen1/sandslash-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/sandslash-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Nidorina",
-            "access_rules": [ "NidoranF" ],
+            "access_rules": "NidoranF, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/nidorina.png",
-            "chest_opened_img": "images/pokemon/gen1/nidorina-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/nidorina-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Nidoqueen",
-            "access_rules": [ "NidoranF", "Nidorina" ],
+            "access_rules": "Nidorina, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen1/nidoqueen.png",
-            "chest_opened_img": "images/pokemon/gen1/nidoqueen-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/nidoqueen-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Nidorino",
-            "access_rules": [ "NidoranM" ],
+            "access_rules": "NidoranM, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/nidorino.png",
-            "chest_opened_img": "images/pokemon/gen1/nidorino-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/nidorino-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Nidoking",
-            "access_rules": [ "NidoranM", "Nidorino" ],
+            "access_rules": "Nidorino, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen1/nidoking.png",
-            "chest_opened_img": "images/pokemon/gen1/nidoking-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/nidoking-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Clefairy",
-            "access_rules": [ "Cleffa" ],
+            "access_rules": "Cleffa, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/clefairy.png",
-            "chest_opened_img": "images/pokemon/gen1/clefairy-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/clefairy-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Clefable",
-            "access_rules": [ "Cleffa", "Clefairy" ],
+            "access_rules": "Clefairy, $isEvolutionItemAvailable, [$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen1/clefable.png",
-            "chest_opened_img": "images/pokemon/gen1/clefable-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/clefable-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Ninetales",
-            "access_rules": [ "Vulpix" ],
+            "access_rules": "Vulpix, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/ninetales.png",
-            "chest_opened_img": "images/pokemon/gen1/ninetales-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/ninetales-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Jigglypuff",
-            "access_rules": [ "Igglybuff" ],
+            "access_rules": "Igglybuff, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/jigglypuff.png",
-            "chest_opened_img": "images/pokemon/gen1/jigglypuff-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/jigglypuff-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Wigglytuff",
-            "access_rules": [ "Igglybuff", "Jigglypuff" ],
+            "access_rules": "Jigglypuff, $isEvolutionItemAvailable, [$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen1/wigglytuff.png",
-            "chest_opened_img": "images/pokemon/gen1/wigglytuff-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/wigglytuff-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Golbat",
-            "access_rules": [ "Zubat" ],
+            "access_rules": "Zubat, [$isRecruitInLogic|0.55]",
             "chest_unopened_img": "images/pokemon/gen1/golbat.png",
-            "chest_opened_img": "images/pokemon/gen1/golbat-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/golbat-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.55"
+            ]
           },
           {
             "name": "Crobat",
-            "access_rules": [ "Zubat", "Golbat" ],
+            "access_rules": "Golbat, $isEvolutionItemAvailable, [$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen2/crobat.png",
-            "chest_opened_img": "images/pokemon/gen2/crobat-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/crobat-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Gloom",
-            "access_rules": [ "Oddish" ],
+            "access_rules": "Oddish, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/gloom.png",
-            "chest_opened_img": "images/pokemon/gen1/gloom-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/gloom-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Vileplume",
-            "access_rules": [ "Oddish", "Gloom" ],
+            "access_rules": "Gloom, $isEvolutionItemAvailable, [$isRecruitInLogic|0.496]",
             "chest_unopened_img": "images/pokemon/gen1/vileplume.png",
-            "chest_opened_img": "images/pokemon/gen1/vileplume-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/vileplume-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.496"
+            ]
           },
           {
             "name": "Bellossom",
-            "access_rules": [ "Oddish", "Gloom" ],
+            "access_rules": "Gloom, $isEvolutionItemAvailable, [$isRecruitInLogic|0.496]",
             "chest_unopened_img": "images/pokemon/gen2/bellossom.png",
-            "chest_opened_img": "images/pokemon/gen2/bellossom-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/bellossom-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.496"
+            ]
           },
           {
             "name": "Parasect",
-            "access_rules": [ "Paras" ],
+            "access_rules": "Paras, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/parasect.png",
-            "chest_opened_img": "images/pokemon/gen1/parasect-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/parasect-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Venomoth",
-            "access_rules": [ "Venonat" ],
+            "access_rules": "Venonat, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/venomoth.png",
-            "chest_opened_img": "images/pokemon/gen1/venomoth-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/venomoth-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Dugtrio",
-            "access_rules": [ "Diglett" ],
+            "access_rules": "Diglett, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/dugtrio.png",
-            "chest_opened_img": "images/pokemon/gen1/dugtrio-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/dugtrio-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Persian",
-            "access_rules": [ "Meowth" ],
+            "access_rules": "Meowth, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/persian.png",
-            "chest_opened_img": "images/pokemon/gen1/persian-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/persian-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Golduck",
-            "access_rules": [ "Psyduck" ],
+            "access_rules": "Psyduck, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/golduck.png",
-            "chest_opened_img": "images/pokemon/gen1/golduck-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/golduck-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Primeape",
-            "access_rules": [ "Mankey" ],
+            "access_rules": "Mankey, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/primeape.png",
-            "chest_opened_img": "images/pokemon/gen1/primeape-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/primeape-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Arcanine",
-            "access_rules": [ "Growlithe" ],
+            "access_rules": "Growlithe, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/arcanine.png",
-            "chest_opened_img": "images/pokemon/gen1/arcanine-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/arcanine-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Poliwhirl",
-            "access_rules": [ "Poliwag" ],
+            "access_rules": "Poliwag, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/poliwhirl.png",
-            "chest_opened_img": "images/pokemon/gen1/poliwhirl-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/poliwhirl-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Poliwrath",
-            "access_rules": [ "Poliwag", "Poliwhirl" ],
+            "access_rules": "Poliwhirl, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen1/poliwrath.png",
-            "chest_opened_img": "images/pokemon/gen1/poliwrath-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/poliwrath-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Politoed",
-            "access_rules": [ "Poliwag", "Poliwhirl" ],
+            "access_rules": "Poliwhirl, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen2/politoed.png",
-            "chest_opened_img": "images/pokemon/gen2/politoed-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/politoed-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Kadabra",
-            "access_rules": [ "Abra" ],
+            "access_rules": "Abra, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/kadabra.png",
-            "chest_opened_img": "images/pokemon/gen1/kadabra-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/kadabra-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Alakazam",
-            "access_rules": [ "Abra", "Kadabra" ],
+            "access_rules": "Kadabra, $isEvolutionItemAvailable, [$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen1/alakazam.png",
-            "chest_opened_img": "images/pokemon/gen1/alakazam-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/alakazam-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Machoke",
-            "access_rules": [ "Machop" ],
+            "access_rules": "Machop, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/machoke.png",
-            "chest_opened_img": "images/pokemon/gen1/machoke-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/machoke-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Machamp",
-            "access_rules": [ "Machop", "Machoke" ],
+            "access_rules": "Machoke, $isEvolutionItemAvailable, [$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen1/machamp.png",
-            "chest_opened_img": "images/pokemon/gen1/machamp-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/machamp-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Weepinbell",
-            "access_rules": [ "Bellsprout" ],
+            "access_rules": "Bellsprout, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/weepinbell.png",
-            "chest_opened_img": "images/pokemon/gen1/weepinbell-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/weepinbell-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Victreebel",
-            "access_rules": [ "Bellsprout", "Weepinbell" ],
+            "access_rules": "Weepinbell, $isEvolutionItemAvailable, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen1/victreebel.png",
-            "chest_opened_img": "images/pokemon/gen1/victreebel-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/victreebel-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Tentacruel",
-            "access_rules": [ "Tentacool" ],
+            "access_rules": "Tentacool, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/tentacruel.png",
-            "chest_opened_img": "images/pokemon/gen1/tentacruel-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/tentacruel-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Graveler",
-            "access_rules": [ "Geodude" ],
+            "access_rules": "Geodude, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/graveler.png",
-            "chest_opened_img": "images/pokemon/gen1/graveler-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/graveler-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Golem",
-            "access_rules": [ "Geodude", "Graveler" ],
+            "access_rules": "Graveler, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen1/golem.png",
-            "chest_opened_img": "images/pokemon/gen1/golem-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/golem-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Rapidash",
-            "access_rules": [ "Ponyta" ],
+            "access_rules": "Ponyta, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/rapidash.png",
-            "chest_opened_img": "images/pokemon/gen1/rapidash-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/rapidash-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Slowbro",
-            "access_rules": [ "Slowpoke" ],
+            "access_rules": "Slowpoke, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/slowbro.png",
-            "chest_opened_img": "images/pokemon/gen1/slowbro-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/slowbro-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Slowking",
-            "access_rules": [ "Slowpoke" ],
+            "access_rules": "Slowpoke, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/slowking.png",
-            "chest_opened_img": "images/pokemon/gen2/slowking-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/slowking-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Magneton",
-            "access_rules": [ "Magnemite" ],
+            "access_rules": "Magnemite, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/magneton.png",
-            "chest_opened_img": "images/pokemon/gen1/magneton-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/magneton-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Magnezone",
-            "access_rules": [ "Magnemite", "Magneton" ],
+            "access_rules": "Magneton, $isEvolutionItemAvailable, [$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen4/magnezone.png",
-            "chest_opened_img": "images/pokemon/gen4/magnezone-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/magnezone-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Dodrio",
-            "access_rules": [ "Doduo" ],
+            "access_rules": "Doduo, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/dodrio.png",
-            "chest_opened_img": "images/pokemon/gen1/dodrio-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/dodrio-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Dewgong",
-            "access_rules": [ "Seel" ],
+            "access_rules": "Seel, [$isRecruitInLogic|0.534]",
             "chest_unopened_img": "images/pokemon/gen1/dewgong.png",
-            "chest_opened_img": "images/pokemon/gen1/dewgong-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/dewgong-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.534"
+            ]
           },
           {
             "name": "Muk",
-            "access_rules": [ "Grimer" ],
+            "access_rules": "Grimer, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/muk.png",
-            "chest_opened_img": "images/pokemon/gen1/muk-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/muk-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Cloyster",
-            "access_rules": [ "Shellder" ],
+            "access_rules": "Shellder, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/cloyster.png",
-            "chest_opened_img": "images/pokemon/gen1/cloyster-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/cloyster-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Haunter",
-            "access_rules": [ "Gastly" ],
+            "access_rules": "Gastly, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/haunter.png",
-            "chest_opened_img": "images/pokemon/gen1/haunter-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/haunter-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Gengar",
-            "access_rules": [ "Gastly", "Haunter" ],
+            "access_rules": "Haunter, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen1/gengar.png",
-            "chest_opened_img": "images/pokemon/gen1/gengar-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/gengar-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Steelix",
-            "access_rules": [ "Onix" ],
+            "access_rules": "Onix, $isEvolutionItemAvailable, [$isRecruitInLogic|0.505]",
             "chest_unopened_img": "images/pokemon/gen2/steelix.png",
-            "chest_opened_img": "images/pokemon/gen2/steelix-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/steelix-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.505"
+            ]
           },
           {
             "name": "Hypno",
-            "access_rules": [ "Drowzee" ],
+            "access_rules": "Drowzee, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/hypno.png",
-            "chest_opened_img": "images/pokemon/gen1/hypno-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/hypno-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Kingler",
-            "access_rules": [ "Krabby" ],
+            "access_rules": "Krabby, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/kingler.png",
-            "chest_opened_img": "images/pokemon/gen1/kingler-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/kingler-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Electrode",
-            "access_rules": [ "Voltorb" ],
+            "access_rules": "Voltorb, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/electrode.png",
-            "chest_opened_img": "images/pokemon/gen1/electrode-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/electrode-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Exeggutor",
-            "access_rules": [ "Exeggcute" ],
+            "access_rules": "Exeggcute, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5549999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/exeggutor.png",
-            "chest_opened_img": "images/pokemon/gen1/exeggutor-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/exeggutor-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5549999999999999"
+            ]
           },
           {
             "name": "Marowak",
-            "access_rules": [ "Cubone" ],
+            "access_rules": "Cubone, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/marowak.png",
-            "chest_opened_img": "images/pokemon/gen1/marowak-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/marowak-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Hitmonlee",
-            "access_rules": [ "Tyrogue" ],
+            "access_rules": "Tyrogue, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/hitmonlee.png",
-            "chest_opened_img": "images/pokemon/gen1/hitmonlee-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/hitmonlee-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Hitmonchan",
-            "access_rules": [ "Tyrogue" ],
+            "access_rules": "Tyrogue, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/hitmonchan.png",
-            "chest_opened_img": "images/pokemon/gen1/hitmonchan-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/hitmonchan-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Hitmontop",
-            "access_rules": [ "Tyrogue" ],
+            "access_rules": "Tyrogue, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen2/hitmontop.png",
-            "chest_opened_img": "images/pokemon/gen2/hitmontop-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/hitmontop-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Lickilicky",
-            "access_rules": [ "Lickitung" ],
+            "access_rules": "Lickitung, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/lickilicky.png",
-            "chest_opened_img": "images/pokemon/gen4/lickilicky-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/lickilicky-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Weezing",
-            "access_rules": [ "Koffing" ],
+            "access_rules": "Koffing, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/weezing.png",
-            "chest_opened_img": "images/pokemon/gen1/weezing-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/weezing-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Rhydon",
-            "access_rules": [ "Rhyhorn" ],
+            "access_rules": "Rhyhorn, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/rhydon.png",
-            "chest_opened_img": "images/pokemon/gen1/rhydon-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/rhydon-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Rhyperior",
-            "access_rules": [ "Rhyhorn", "Rhydon" ],
+            "access_rules": "Rhydon, $isEvolutionItemAvailable, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen4/rhyperior.png",
-            "chest_opened_img": "images/pokemon/gen4/rhyperior-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/rhyperior-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Chansey",
-            "access_rules": [ "Happiny" ],
+            "access_rules": "Happiny, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/chansey.png",
-            "chest_opened_img": "images/pokemon/gen1/chansey-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/chansey-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Blissey",
-            "access_rules": [ "Happiny", "Chansey" ],
+            "access_rules": "Chansey, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5640000000000001]",
             "chest_unopened_img": "images/pokemon/gen2/blissey.png",
-            "chest_opened_img": "images/pokemon/gen2/blissey-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/blissey-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5640000000000001"
+            ]
           },
           {
             "name": "Tangrowth",
-            "access_rules": [ "Tangela" ],
+            "access_rules": "Tangela, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen4/tangrowth.png",
-            "chest_opened_img": "images/pokemon/gen4/tangrowth-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/tangrowth-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Seadra",
-            "access_rules": [ "Horsea" ],
+            "access_rules": "Horsea, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/seadra.png",
-            "chest_opened_img": "images/pokemon/gen1/seadra-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/seadra-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Kingdra",
-            "access_rules": [ "Horsea", "Seadra" ],
+            "access_rules": "Seadra, $isEvolutionItemAvailable, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen2/kingdra.png",
-            "chest_opened_img": "images/pokemon/gen2/kingdra-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/kingdra-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Seaking",
-            "access_rules": [ "Goldeen" ],
+            "access_rules": "Goldeen, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/seaking.png",
-            "chest_opened_img": "images/pokemon/gen1/seaking-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/seaking-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Starmie",
-            "access_rules": [ "Staryu" ],
+            "access_rules": "Staryu, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/starmie.png",
-            "chest_opened_img": "images/pokemon/gen1/starmie-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/starmie-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Mr. Mime",
-            "access_rules": [ "Mime Jr." ],
+            "access_rules": "Mime Jr., $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/mr. mime.png",
-            "chest_opened_img": "images/pokemon/gen1/mr. mime-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/mr. mime-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Scizor",
-            "access_rules": [ "Scyther" ],
+            "access_rules": "Scyther, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/scizor.png",
-            "chest_opened_img": "images/pokemon/gen2/scizor-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/scizor-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Jynx",
-            "access_rules": [ "Smoochum" ],
+            "access_rules": "Smoochum, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/jynx.png",
-            "chest_opened_img": "images/pokemon/gen1/jynx-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/jynx-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Electabuzz",
-            "access_rules": [ "Elekid" ],
+            "access_rules": "Elekid, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/electabuzz.png",
-            "chest_opened_img": "images/pokemon/gen1/electabuzz-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/electabuzz-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Electivire",
-            "access_rules": [ "Elekid", "Electabuzz" ],
+            "access_rules": "Electabuzz, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen4/electivire.png",
-            "chest_opened_img": "images/pokemon/gen4/electivire-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/electivire-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Magmar",
-            "access_rules": [ "Magby" ],
+            "access_rules": "Magby, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/magmar.png",
-            "chest_opened_img": "images/pokemon/gen1/magmar-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/magmar-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Magmortar",
-            "access_rules": [ "Magby", "Magmar" ],
+            "access_rules": "Magmar, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen4/magmortar.png",
-            "chest_opened_img": "images/pokemon/gen4/magmortar-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/magmortar-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Gyarados",
-            "access_rules": [ "Magikarp" ],
+            "access_rules": "Magikarp, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/gyarados.png",
-            "chest_opened_img": "images/pokemon/gen1/gyarados-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/gyarados-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Vaporeon",
-            "access_rules": [ "Eevee" ],
+            "access_rules": "Eevee, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/vaporeon.png",
-            "chest_opened_img": "images/pokemon/gen1/vaporeon-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/vaporeon-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Jolteon",
-            "access_rules": [ "Eevee" ],
+            "access_rules": "Eevee, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/jolteon.png",
-            "chest_opened_img": "images/pokemon/gen1/jolteon-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/jolteon-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Flareon",
-            "access_rules": [ "Eevee" ],
+            "access_rules": "Eevee, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/flareon.png",
-            "chest_opened_img": "images/pokemon/gen1/flareon-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/flareon-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Espeon",
-            "access_rules": [ "Eevee" ],
+            "access_rules": "Eevee, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/espeon.png",
-            "chest_opened_img": "images/pokemon/gen2/espeon-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/espeon-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Umbreon",
-            "access_rules": [ "Eevee" ],
+            "access_rules": "Eevee, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/umbreon.png",
-            "chest_opened_img": "images/pokemon/gen2/umbreon-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/umbreon-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Leafeon",
-            "access_rules": [ "Eevee" ],
+            "access_rules": "Eevee, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/leafeon.png",
-            "chest_opened_img": "images/pokemon/gen4/leafeon-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/leafeon-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Glaceon",
-            "access_rules": [ "Eevee" ],
+            "access_rules": "Eevee, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/glaceon.png",
-            "chest_opened_img": "images/pokemon/gen4/glaceon-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/glaceon-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Porygon2",
-            "access_rules": [ "Porygon" ],
+            "access_rules": "Porygon, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen2/porygon2.png",
-            "chest_opened_img": "images/pokemon/gen2/porygon2-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/porygon2-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Porygon-Z",
-            "access_rules": [ "Porygon", "Porygon2" ],
+            "access_rules": "Porygon2, $isEvolutionItemAvailable, [$isRecruitInLogic|0.545]",
             "chest_unopened_img": "images/pokemon/gen4/porygon-z.png",
-            "chest_opened_img": "images/pokemon/gen4/porygon-z-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/porygon-z-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.545"
+            ]
           },
           {
             "name": "Omastar",
-            "access_rules": [ "Omanyte" ],
+            "access_rules": "Omanyte, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/omastar.png",
-            "chest_opened_img": "images/pokemon/gen1/omastar-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/omastar-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Kabutops",
-            "access_rules": [ "Kabuto" ],
+            "access_rules": "Kabuto, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/kabutops.png",
-            "chest_opened_img": "images/pokemon/gen1/kabutops-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/kabutops-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Snorlax",
-            "access_rules": [ "Munchlax" ],
+            "access_rules": "Munchlax, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/snorlax.png",
-            "chest_opened_img": "images/pokemon/gen1/snorlax-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/snorlax-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Dragonair",
-            "access_rules": [ "Dratini" ],
+            "access_rules": "Dratini, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/dragonair.png",
-            "chest_opened_img": "images/pokemon/gen1/dragonair-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/dragonair-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Dragonite",
-            "access_rules": [ "Dratini", "Dragonair" ],
+            "access_rules": "Dragonair, [$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen1/dragonite.png",
-            "chest_opened_img": "images/pokemon/gen1/dragonite-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/dragonite-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Bayleef",
-            "access_rules": [ "Chikorita" ],
+            "access_rules": "Chikorita, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/bayleef.png",
-            "chest_opened_img": "images/pokemon/gen2/bayleef-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/bayleef-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Meganium",
-            "access_rules": [ "Chikorita", "Bayleef" ],
+            "access_rules": "Bayleef, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen2/meganium.png",
-            "chest_opened_img": "images/pokemon/gen2/meganium-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/meganium-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Quilava",
-            "access_rules": [ "Cyndaquil" ],
+            "access_rules": "Cyndaquil, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/quilava.png",
-            "chest_opened_img": "images/pokemon/gen2/quilava-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/quilava-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Typhlosion",
-            "access_rules": [ "Cyndaquil", "Quilava" ],
+            "access_rules": "Quilava, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen2/typhlosion.png",
-            "chest_opened_img": "images/pokemon/gen2/typhlosion-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/typhlosion-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Croconaw",
-            "access_rules": [ "Totodile" ],
+            "access_rules": "Totodile, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/croconaw.png",
-            "chest_opened_img": "images/pokemon/gen2/croconaw-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/croconaw-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Feraligatr",
-            "access_rules": [ "Totodile", "Croconaw" ],
+            "access_rules": "Croconaw, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen2/feraligatr.png",
-            "chest_opened_img": "images/pokemon/gen2/feraligatr-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/feraligatr-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Furret",
-            "access_rules": [ "Sentret" ],
+            "access_rules": "Sentret, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen2/furret.png",
-            "chest_opened_img": "images/pokemon/gen2/furret-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/furret-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Noctowl",
-            "access_rules": [ "Hoothoot" ],
+            "access_rules": "Hoothoot, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen2/noctowl.png",
-            "chest_opened_img": "images/pokemon/gen2/noctowl-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/noctowl-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Ledian",
-            "access_rules": [ "Ledyba" ],
+            "access_rules": "Ledyba, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/ledian.png",
-            "chest_opened_img": "images/pokemon/gen2/ledian-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/ledian-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Ariados",
-            "access_rules": [ "Spinarak" ],
+            "access_rules": "Spinarak, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen2/ariados.png",
-            "chest_opened_img": "images/pokemon/gen2/ariados-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/ariados-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Lanturn",
-            "access_rules": [ "Chinchou" ],
+            "access_rules": "Chinchou, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/lanturn.png",
-            "chest_opened_img": "images/pokemon/gen2/lanturn-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/lanturn-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Togetic",
-            "access_rules": [ "Togepi" ],
+            "access_rules": "Togepi, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen2/togetic.png",
-            "chest_opened_img": "images/pokemon/gen2/togetic-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/togetic-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Togekiss",
-            "access_rules": [ "Togepi", "Togetic" ],
+            "access_rules": "Togetic, $isEvolutionItemAvailable, [$isRecruitInLogic|0.375]",
             "chest_unopened_img": "images/pokemon/gen4/togekiss.png",
-            "chest_opened_img": "images/pokemon/gen4/togekiss-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/togekiss-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.375"
+            ]
           },
           {
             "name": "Xatu",
-            "access_rules": [ "Natu" ],
+            "access_rules": "Natu, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/xatu.png",
-            "chest_opened_img": "images/pokemon/gen2/xatu-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/xatu-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Flaaffy",
-            "access_rules": [ "Mareep" ],
+            "access_rules": "Mareep, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/flaaffy.png",
-            "chest_opened_img": "images/pokemon/gen2/flaaffy-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/flaaffy-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Ampharos",
-            "access_rules": [ "Mareep", "Flaaffy" ],
+            "access_rules": "Flaaffy, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen2/ampharos.png",
-            "chest_opened_img": "images/pokemon/gen2/ampharos-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/ampharos-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Marill",
-            "access_rules": [ "Azurill" ],
+            "access_rules": "Azurill, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/marill.png",
-            "chest_opened_img": "images/pokemon/gen2/marill-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/marill-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Azumarill",
-            "access_rules": [ "Azurill", "Marill" ],
+            "access_rules": "Marill, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen2/azumarill.png",
-            "chest_opened_img": "images/pokemon/gen2/azumarill-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/azumarill-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Sudowoodo",
-            "access_rules": [ "Bonsly" ],
+            "access_rules": "Bonsly, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/sudowoodo.png",
-            "chest_opened_img": "images/pokemon/gen2/sudowoodo-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/sudowoodo-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Skiploom",
-            "access_rules": [ "Hoppip" ],
+            "access_rules": "Hoppip, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/skiploom.png",
-            "chest_opened_img": "images/pokemon/gen2/skiploom-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/skiploom-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Jumpluff",
-            "access_rules": [ "Hoppip", "Skiploom" ],
+            "access_rules": "Skiploom, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen2/jumpluff.png",
-            "chest_opened_img": "images/pokemon/gen2/jumpluff-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/jumpluff-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Ambipom",
-            "access_rules": [ "Aipom" ],
+            "access_rules": "Aipom, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen4/ambipom.png",
-            "chest_opened_img": "images/pokemon/gen4/ambipom-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/ambipom-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Sunflora",
-            "access_rules": [ "Sunkern" ],
+            "access_rules": "Sunkern, $isEvolutionItemAvailable, [$isRecruitInLogic|0.547]",
             "chest_unopened_img": "images/pokemon/gen2/sunflora.png",
-            "chest_opened_img": "images/pokemon/gen2/sunflora-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/sunflora-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.547"
+            ]
           },
           {
             "name": "Yanmega",
-            "access_rules": [ "Yanma" ],
+            "access_rules": "Yanma, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/yanmega.png",
-            "chest_opened_img": "images/pokemon/gen4/yanmega-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/yanmega-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Quagsire",
-            "access_rules": [ "Wooper" ],
+            "access_rules": "Wooper, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/quagsire.png",
-            "chest_opened_img": "images/pokemon/gen2/quagsire-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/quagsire-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Honchkrow",
-            "access_rules": [ "Murkrow" ],
+            "access_rules": "Murkrow, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen4/honchkrow.png",
-            "chest_opened_img": "images/pokemon/gen4/honchkrow-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/honchkrow-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Mismagius",
-            "access_rules": [ "Misdreavus" ],
+            "access_rules": "Misdreavus, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/mismagius.png",
-            "chest_opened_img": "images/pokemon/gen4/mismagius-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/mismagius-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Wobbuffet",
-            "access_rules": [ "Wynaut" ],
+            "access_rules": "Wynaut, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/wobbuffet.png",
-            "chest_opened_img": "images/pokemon/gen2/wobbuffet-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/wobbuffet-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Forretress",
-            "access_rules": [ "Pineco" ],
+            "access_rules": "Pineco, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/forretress.png",
-            "chest_opened_img": "images/pokemon/gen2/forretress-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/forretress-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Gliscor",
-            "access_rules": [ "Gligar" ],
+            "access_rules": "Gligar, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/gliscor.png",
-            "chest_opened_img": "images/pokemon/gen4/gliscor-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/gliscor-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Granbull",
-            "access_rules": [ "Snubbull" ],
+            "access_rules": "Snubbull, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen2/granbull.png",
-            "chest_opened_img": "images/pokemon/gen2/granbull-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/granbull-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Weavile",
-            "access_rules": [ "Sneasel" ],
+            "access_rules": "Sneasel, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen4/weavile.png",
-            "chest_opened_img": "images/pokemon/gen4/weavile-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/weavile-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Ursaring",
-            "access_rules": [ "Teddiursa" ],
+            "access_rules": "Teddiursa, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/ursaring.png",
-            "chest_opened_img": "images/pokemon/gen2/ursaring-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/ursaring-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Magcargo",
-            "access_rules": [ "Slugma" ],
+            "access_rules": "Slugma, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/magcargo.png",
-            "chest_opened_img": "images/pokemon/gen2/magcargo-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/magcargo-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Piloswine",
-            "access_rules": [ "Swinub" ],
+            "access_rules": "Swinub, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/piloswine.png",
-            "chest_opened_img": "images/pokemon/gen2/piloswine-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/piloswine-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Mamoswine",
-            "access_rules": [ "Swinub", "Piloswine" ],
+            "access_rules": "Piloswine, $isEvolutionItemAvailable, [$isRecruitInLogic|0.375]",
             "chest_unopened_img": "images/pokemon/gen4/mamoswine.png",
-            "chest_opened_img": "images/pokemon/gen4/mamoswine-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/mamoswine-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.375"
+            ]
           },
           {
             "name": "Octillery",
-            "access_rules": [ "Remoraid" ],
+            "access_rules": "Remoraid, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/octillery.png",
-            "chest_opened_img": "images/pokemon/gen2/octillery-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/octillery-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Mantine",
-            "access_rules": [ "Mantyke" ],
+            "access_rules": "Mantyke, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/mantine.png",
-            "chest_opened_img": "images/pokemon/gen2/mantine-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/mantine-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Houndoom",
-            "access_rules": [ "Houndour" ],
+            "access_rules": "Houndour, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/houndoom.png",
-            "chest_opened_img": "images/pokemon/gen2/houndoom-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/houndoom-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Donphan",
-            "access_rules": [ "Phanpy" ],
+            "access_rules": "Phanpy, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/donphan.png",
-            "chest_opened_img": "images/pokemon/gen2/donphan-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/donphan-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Pupitar",
-            "access_rules": [ "Larvitar" ],
+            "access_rules": "Larvitar, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/pupitar.png",
-            "chest_opened_img": "images/pokemon/gen2/pupitar-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/pupitar-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Tyranitar",
-            "access_rules": [ "Larvitar", "Pupitar" ],
+            "access_rules": "Pupitar, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen2/tyranitar.png",
-            "chest_opened_img": "images/pokemon/gen2/tyranitar-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/tyranitar-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Grovyle",
-            "access_rules": [ "Treecko" ],
+            "access_rules": "Treecko, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/grovyle.png",
-            "chest_opened_img": "images/pokemon/gen3/grovyle-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/grovyle-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Sceptile",
-            "access_rules": [ "Treecko", "Grovyle" ],
+            "access_rules": "Grovyle, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen3/sceptile.png",
-            "chest_opened_img": "images/pokemon/gen3/sceptile-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/sceptile-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Combusken",
-            "access_rules": [ "Torchic" ],
+            "access_rules": "Torchic, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/combusken.png",
-            "chest_opened_img": "images/pokemon/gen3/combusken-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/combusken-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Blaziken",
-            "access_rules": [ "Torchic", "Combusken" ],
+            "access_rules": "Combusken, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen3/blaziken.png",
-            "chest_opened_img": "images/pokemon/gen3/blaziken-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/blaziken-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Marshtomp",
-            "access_rules": [ "Mudkip" ],
+            "access_rules": "Mudkip, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/marshtomp.png",
-            "chest_opened_img": "images/pokemon/gen3/marshtomp-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/marshtomp-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Swampert",
-            "access_rules": [ "Mudkip", "Marshtomp" ],
+            "access_rules": "Marshtomp, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen3/swampert.png",
-            "chest_opened_img": "images/pokemon/gen3/swampert-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/swampert-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Mightyena",
-            "access_rules": [ "Poochyena" ],
+            "access_rules": "Poochyena, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/mightyena.png",
-            "chest_opened_img": "images/pokemon/gen3/mightyena-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/mightyena-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Linoone",
-            "access_rules": [ "Zigzagoon" ],
+            "access_rules": "Zigzagoon, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/linoone.png",
-            "chest_opened_img": "images/pokemon/gen3/linoone-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/linoone-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Silcoon",
-            "access_rules": [ "Wurmple" ],
+            "access_rules": "Wurmple, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/silcoon.png",
-            "chest_opened_img": "images/pokemon/gen3/silcoon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/silcoon-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Beautifly",
-            "access_rules": [ "Wurmple", "Silcoon" ],
+            "access_rules": "Silcoon, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen3/beautifly.png",
-            "chest_opened_img": "images/pokemon/gen3/beautifly-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/beautifly-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Cascoon",
-            "access_rules": [ "Wurmple" ],
+            "access_rules": "Wurmple, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/cascoon.png",
-            "chest_opened_img": "images/pokemon/gen3/cascoon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/cascoon-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Dustox",
-            "access_rules": [ "Wurmple", "Cascoon" ],
+            "access_rules": "Cascoon, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen3/dustox.png",
-            "chest_opened_img": "images/pokemon/gen3/dustox-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/dustox-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Lombre",
-            "access_rules": [ "Lotad" ],
+            "access_rules": "Lotad, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/lombre.png",
-            "chest_opened_img": "images/pokemon/gen3/lombre-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/lombre-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Ludicolo",
-            "access_rules": [ "Lotad", "Lombre" ],
+            "access_rules": "Lombre, $isEvolutionItemAvailable, [$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen3/ludicolo.png",
-            "chest_opened_img": "images/pokemon/gen3/ludicolo-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/ludicolo-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Nuzleaf",
-            "access_rules": [ "Seedot" ],
+            "access_rules": "Seedot, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/nuzleaf.png",
-            "chest_opened_img": "images/pokemon/gen3/nuzleaf-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/nuzleaf-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Shiftry",
-            "access_rules": [ "Seedot", "Nuzleaf" ],
+            "access_rules": "Nuzleaf, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/shiftry.png",
-            "chest_opened_img": "images/pokemon/gen3/shiftry-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/shiftry-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Swellow",
-            "access_rules": [ "Taillow" ],
+            "access_rules": "Taillow, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/swellow.png",
-            "chest_opened_img": "images/pokemon/gen3/swellow-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/swellow-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Pelipper",
-            "access_rules": [ "Wingull" ],
+            "access_rules": "Wingull, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/pelipper.png",
-            "chest_opened_img": "images/pokemon/gen3/pelipper-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/pelipper-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Kirlia",
-            "access_rules": [ "Ralts" ],
+            "access_rules": "Ralts, [$isRecruitInLogic|0.545]",
             "chest_unopened_img": "images/pokemon/gen3/kirlia.png",
-            "chest_opened_img": "images/pokemon/gen3/kirlia-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/kirlia-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.545"
+            ]
           },
           {
             "name": "Gardevoir",
-            "access_rules": [ "Ralts", "Kirlia" ],
+            "access_rules": "Kirlia, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/gardevoir.png",
-            "chest_opened_img": "images/pokemon/gen3/gardevoir-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/gardevoir-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Gallade",
-            "access_rules": [ "Ralts", "Kirlia" ],
+            "access_rules": "Kirlia, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen4/gallade.png",
-            "chest_opened_img": "images/pokemon/gen4/gallade-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/gallade-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Masquerain",
-            "access_rules": [ "Surskit" ],
+            "access_rules": "Surskit, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/masquerain.png",
-            "chest_opened_img": "images/pokemon/gen3/masquerain-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/masquerain-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Breloom",
-            "access_rules": [ "Shroomish" ],
+            "access_rules": "Shroomish, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/breloom.png",
-            "chest_opened_img": "images/pokemon/gen3/breloom-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/breloom-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Vigoroth",
-            "access_rules": [ "Slakoth" ],
+            "access_rules": "Slakoth, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/vigoroth.png",
-            "chest_opened_img": "images/pokemon/gen3/vigoroth-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/vigoroth-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Slaking",
-            "access_rules": [ "Slakoth", "Vigoroth" ],
+            "access_rules": "Vigoroth, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen3/slaking.png",
-            "chest_opened_img": "images/pokemon/gen3/slaking-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/slaking-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Ninjask",
-            "access_rules": [ "Nincada" ],
+            "access_rules": "Nincada, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/ninjask.png",
-            "chest_opened_img": "images/pokemon/gen3/ninjask-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/ninjask-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Shedinja",
-            "access_rules": [ "Nincada" ],
+            "access_rules": "Nincada, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/shedinja.png",
-            "chest_opened_img": "images/pokemon/gen3/shedinja-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/shedinja-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Loudred",
-            "access_rules": [ "Whismur" ],
+            "access_rules": "Whismur, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/loudred.png",
-            "chest_opened_img": "images/pokemon/gen3/loudred-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/loudred-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Exploud",
-            "access_rules": [ "Whismur", "Loudred" ],
+            "access_rules": "Loudred, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen3/exploud.png",
-            "chest_opened_img": "images/pokemon/gen3/exploud-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/exploud-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Hariyama",
-            "access_rules": [ "Makuhita" ],
+            "access_rules": "Makuhita, [$isRecruitInLogic|0.535]",
             "chest_unopened_img": "images/pokemon/gen3/hariyama.png",
-            "chest_opened_img": "images/pokemon/gen3/hariyama-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/hariyama-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.535"
+            ]
           },
           {
             "name": "Probopass",
-            "access_rules": [ "Nosepass" ],
+            "access_rules": "Nosepass, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen4/probopass.png",
-            "chest_opened_img": "images/pokemon/gen4/probopass-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/probopass-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Delcatty",
-            "access_rules": [ "Skitty" ],
+            "access_rules": "Skitty, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/delcatty.png",
-            "chest_opened_img": "images/pokemon/gen3/delcatty-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/delcatty-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Lairon",
-            "access_rules": [ "Aron" ],
+            "access_rules": "Aron, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/lairon.png",
-            "chest_opened_img": "images/pokemon/gen3/lairon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/lairon-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Aggron",
-            "access_rules": [ "Aron", "Lairon" ],
+            "access_rules": "Lairon, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/aggron.png",
-            "chest_opened_img": "images/pokemon/gen3/aggron-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/aggron-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Medicham",
-            "access_rules": [ "Meditite" ],
+            "access_rules": "Meditite, [$isRecruitInLogic|0.55]",
             "chest_unopened_img": "images/pokemon/gen3/medicham.png",
-            "chest_opened_img": "images/pokemon/gen3/medicham-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/medicham-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.55"
+            ]
           },
           {
-            "name": "Manetric",
-            "access_rules": [ "Electrike" ],
-            "chest_unopened_img": "images/pokemon/gen3/manetric.png",
-            "chest_opened_img": "images/pokemon/gen3/manetric-gray.png"
+            "name": "Manectric",
+            "access_rules": "Electrike, [$isRecruitInLogic|0.5589999999999999]",
+            "chest_unopened_img": "images/pokemon/gen3/manectric.png",
+            "chest_opened_img": "images/pokemon/gen3/manectric-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Roselia",
-            "access_rules": [ "Budew" ],
+            "access_rules": "Budew, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/roselia.png",
-            "chest_opened_img": "images/pokemon/gen3/roselia-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/roselia-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Roserade",
-            "access_rules": [ "Budew", "Roselia" ],
+            "access_rules": "Roselia, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen4/roserade.png",
-            "chest_opened_img": "images/pokemon/gen4/roserade-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/roserade-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Swalot",
-            "access_rules": [ "Gulpin" ],
+            "access_rules": "Gulpin, [$isRecruitInLogic|0.5640000000000001]",
             "chest_unopened_img": "images/pokemon/gen3/swalot.png",
-            "chest_opened_img": "images/pokemon/gen3/swalot-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/swalot-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5640000000000001"
+            ]
           },
           {
             "name": "Sharpedo",
-            "access_rules": [ "Carvanha" ],
+            "access_rules": "Carvanha, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/sharpedo.png",
-            "chest_opened_img": "images/pokemon/gen3/sharpedo-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/sharpedo-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Wailord",
-            "access_rules": [ "Wailmer" ],
+            "access_rules": "Wailmer, [$isRecruitInLogic|0.535]",
             "chest_unopened_img": "images/pokemon/gen3/wailord.png",
-            "chest_opened_img": "images/pokemon/gen3/wailord-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/wailord-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.535"
+            ]
           },
           {
             "name": "Camerupt",
-            "access_rules": [ "Numel" ],
+            "access_rules": "Numel, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/camerupt.png",
-            "chest_opened_img": "images/pokemon/gen3/camerupt-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/camerupt-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Grumpig",
-            "access_rules": [ "Spoink" ],
+            "access_rules": "Spoink, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/grumpig.png",
-            "chest_opened_img": "images/pokemon/gen3/grumpig-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/grumpig-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Vibrava",
-            "access_rules": [ "Trapinch" ],
+            "access_rules": "Trapinch, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/vibrava.png",
-            "chest_opened_img": "images/pokemon/gen3/vibrava-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/vibrava-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Flygon",
-            "access_rules": [ "Trapinch", "Vibrava" ],
+            "access_rules": "Vibrava, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/flygon.png",
-            "chest_opened_img": "images/pokemon/gen3/flygon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/flygon-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Cacturne",
-            "access_rules": [ "Cacnea" ],
+            "access_rules": "Cacnea, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/cacturne.png",
-            "chest_opened_img": "images/pokemon/gen3/cacturne-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/cacturne-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Altaria",
-            "access_rules": [ "Swablu" ],
+            "access_rules": "Swablu, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/altaria.png",
-            "chest_opened_img": "images/pokemon/gen3/altaria-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/altaria-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Whiscash",
-            "access_rules": [ "Barboach" ],
+            "access_rules": "Barboach, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/whiscash.png",
-            "chest_opened_img": "images/pokemon/gen3/whiscash-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/whiscash-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Crawdaunt",
-            "access_rules": [ "Corphish" ],
+            "access_rules": "Corphish, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/crawdaunt.png",
-            "chest_opened_img": "images/pokemon/gen3/crawdaunt-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/crawdaunt-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Claydol",
-            "access_rules": [ "Baltoy" ],
+            "access_rules": "Baltoy, [$isRecruitInLogic|0.551]",
             "chest_unopened_img": "images/pokemon/gen3/claydol.png",
-            "chest_opened_img": "images/pokemon/gen3/claydol-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/claydol-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.551"
+            ]
           },
           {
             "name": "Cradily",
-            "access_rules": [ "Lileep" ],
+            "access_rules": "Lileep, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/cradily.png",
-            "chest_opened_img": "images/pokemon/gen3/cradily-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/cradily-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Armaldo",
-            "access_rules": [ "Anorith" ],
+            "access_rules": "Anorith, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/armaldo.png",
-            "chest_opened_img": "images/pokemon/gen3/armaldo-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/armaldo-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Milotic",
-            "access_rules": [ "Feebas" ],
+            "access_rules": "Feebas, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/milotic.png",
-            "chest_opened_img": "images/pokemon/gen3/milotic-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/milotic-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Banette",
-            "access_rules": [ "Shuppet" ],
+            "access_rules": "Shuppet, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/banette.png",
-            "chest_opened_img": "images/pokemon/gen3/banette-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/banette-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Dusclops",
-            "access_rules": [ "Duskull" ],
+            "access_rules": "Duskull, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/dusclops.png",
-            "chest_opened_img": "images/pokemon/gen3/dusclops-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/dusclops-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Dusknoir",
-            "access_rules": [ "Duskull", "Dusclops" ],
+            "access_rules": "Dusclops, $isEvolutionItemAvailable, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen4/dusknoir.png",
-            "chest_opened_img": "images/pokemon/gen4/dusknoir-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/dusknoir-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Chimecho",
-            "access_rules": [ "Chingling" ],
+            "access_rules": "Chingling, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/chimecho.png",
-            "chest_opened_img": "images/pokemon/gen3/chimecho-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/chimecho-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Glalie",
-            "access_rules": [ "Snorunt" ],
+            "access_rules": "Snorunt, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/glalie.png",
-            "chest_opened_img": "images/pokemon/gen3/glalie-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/glalie-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Froslass",
-            "access_rules": [ "Snorunt" ],
+            "access_rules": "Snorunt, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen4/froslass.png",
-            "chest_opened_img": "images/pokemon/gen4/froslass-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/froslass-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Sealeo",
-            "access_rules": [ "Spheal" ],
+            "access_rules": "Spheal, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/sealeo.png",
-            "chest_opened_img": "images/pokemon/gen3/sealeo-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/sealeo-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Walrein",
-            "access_rules": [ "Spheal", "Sealeo" ],
+            "access_rules": "Sealeo, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/walrein.png",
-            "chest_opened_img": "images/pokemon/gen3/walrein-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/walrein-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Huntail",
-            "access_rules": [ "Clamperl" ],
+            "access_rules": "Clamperl, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/huntail.png",
-            "chest_opened_img": "images/pokemon/gen3/huntail-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/huntail-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Gorebyss",
-            "access_rules": [ "Clamperl" ],
+            "access_rules": "Clamperl, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/gorebyss.png",
-            "chest_opened_img": "images/pokemon/gen3/gorebyss-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/gorebyss-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Shelgon",
-            "access_rules": [ "Bagon" ],
+            "access_rules": "Bagon, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/shelgon.png",
-            "chest_opened_img": "images/pokemon/gen3/shelgon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/shelgon-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Salamence",
-            "access_rules": [ "Bagon", "Shelgon" ],
+            "access_rules": "Shelgon, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/salamence.png",
-            "chest_opened_img": "images/pokemon/gen3/salamence-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/salamence-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Metang",
-            "access_rules": [ "Beldum" ],
+            "access_rules": "Beldum, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/metang.png",
-            "chest_opened_img": "images/pokemon/gen3/metang-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/metang-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Metagross",
-            "access_rules": [ "Beldum", "Metang" ],
+            "access_rules": "Metang, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/metagross.png",
-            "chest_opened_img": "images/pokemon/gen3/metagross-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/metagross-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Grotle",
-            "access_rules": [ "Turtwig" ],
+            "access_rules": "Turtwig, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/grotle.png",
-            "chest_opened_img": "images/pokemon/gen4/grotle-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/grotle-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Torterra",
-            "access_rules": [ "Turtwig", "Grotle" ],
+            "access_rules": "Grotle, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen4/torterra.png",
-            "chest_opened_img": "images/pokemon/gen4/torterra-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/torterra-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Monferno",
-            "access_rules": [ "Chimchar" ],
+            "access_rules": "Chimchar, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/monferno.png",
-            "chest_opened_img": "images/pokemon/gen4/monferno-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/monferno-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Infernape",
-            "access_rules": [ "Chimchar", "Monferno" ],
+            "access_rules": "Monferno, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen4/infernape.png",
-            "chest_opened_img": "images/pokemon/gen4/infernape-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/infernape-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Prinplup",
-            "access_rules": [ "Piplup" ],
+            "access_rules": "Piplup, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/prinplup.png",
-            "chest_opened_img": "images/pokemon/gen4/prinplup-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/prinplup-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Empoleon",
-            "access_rules": [ "Piplup", "Prinplup" ],
+            "access_rules": "Prinplup, [$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen4/empoleon.png",
-            "chest_opened_img": "images/pokemon/gen4/empoleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/empoleon-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Staravia",
-            "access_rules": [ "Starly" ],
+            "access_rules": "Starly, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/staravia.png",
-            "chest_opened_img": "images/pokemon/gen4/staravia-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/staravia-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Staraptor",
-            "access_rules": [ "Starly", "Staravia" ],
+            "access_rules": "Staravia, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/staraptor.png",
-            "chest_opened_img": "images/pokemon/gen4/staraptor-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/staraptor-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Bibarel",
-            "access_rules": [ "Bidoof" ],
+            "access_rules": "Bidoof, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/bibarel.png",
-            "chest_opened_img": "images/pokemon/gen4/bibarel-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/bibarel-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Kricketune",
-            "access_rules": [ "Kricketot" ],
+            "access_rules": "Kricketot, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/kricketune.png",
-            "chest_opened_img": "images/pokemon/gen4/kricketune-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/kricketune-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Luxio",
-            "access_rules": [ "Shinx" ],
+            "access_rules": "Shinx, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/luxio.png",
-            "chest_opened_img": "images/pokemon/gen4/luxio-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/luxio-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Luxray",
-            "access_rules": [ "Shinx", "Luxio" ],
+            "access_rules": "Luxio, [$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen4/luxray.png",
-            "chest_opened_img": "images/pokemon/gen4/luxray-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/luxray-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Rampardos",
-            "access_rules": [ "Cranidos" ],
+            "access_rules": "Cranidos, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/rampardos.png",
-            "chest_opened_img": "images/pokemon/gen4/rampardos-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/rampardos-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Bastiodon",
-            "access_rules": [ "Shieldon" ],
+            "access_rules": "Shieldon, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/bastiodon.png",
-            "chest_opened_img": "images/pokemon/gen4/bastiodon-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/bastiodon-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
-            "name": "Wormadam_P",
-            "access_rules": [ "Burmy_P" ],
+            "name": "Wormadam",
+            "access_rules": "Burmy, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/wormadam_p.png",
-            "chest_opened_img": "images/pokemon/gen4/wormadam_p-gray.png"
-          },
-          {
-            "name": "Wormadam_S",
-            "access_rules": [ "Burmy_S" ],
-            "chest_unopened_img": "images/pokemon/gen4/wormadam_s.png",
-            "chest_opened_img": "images/pokemon/gen4/wormadam_s-gray.png"
-          },
-          {
-            "name": "Wormadam_T",
-            "access_rules": [ "Burmy_T" ],
-            "chest_unopened_img": "images/pokemon/gen4/wormadam_t.png",
-            "chest_opened_img": "images/pokemon/gen4/wormadam_t-gray.png"
-          },
-          {
-            "name": "Burmy_S",
-            "access_rules": [ "Burmy_P" ],
-            "chest_unopened_img": "images/pokemon/gen4/burmy_s.png",
-            "chest_opened_img": "images/pokemon/gen4/burmy_s-gray.png"
-          },
-          {
-            "name": "Burmy_T",
-            "access_rules": [ "Burmy_P", "Burmy_S" ],
-            "chest_unopened_img": "images/pokemon/gen4/burmy_t.png",
-            "chest_opened_img": "images/pokemon/gen4/burmy_t-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/wormadam_p-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Mothim",
-            "access_rules": [ "Burmy_P", "Burmy_S", "Burmy_T" ],
+            "access_rules": "Burmy, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/mothim.png",
-            "chest_opened_img": "images/pokemon/gen4/mothim-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/mothim-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Vespiquen",
-            "access_rules": [ "Combee" ],
+            "access_rules": "Combee, $isEvolutionItemAvailable, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen4/vespiquen.png",
-            "chest_opened_img": "images/pokemon/gen4/vespiquen-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/vespiquen-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Floatzel",
-            "access_rules": [ "Buizel" ],
+            "access_rules": "Buizel, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/floatzel.png",
-            "chest_opened_img": "images/pokemon/gen4/floatzel-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/floatzel-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Cherrim",
-            "access_rules": [ "Cherubi" ],
+            "access_rules": "Cherubi, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/cherrim.png",
-            "chest_opened_img": "images/pokemon/gen4/cherrim-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/cherrim-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
-            "name": "Gastrodon_E",
-            "access_rules": [ "Shellos_E" ],
+            "name": "Gastrodon",
+            "access_rules": "Shellos, [$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen4/gastrodon_e.png",
-            "chest_opened_img": "images/pokemon/gen4/gastrodon_e-gray.png"
-          },
-          {
-            "name": "Gastrodon_W",
-            "access_rules": [ "Shellos_W" ],
-            "chest_unopened_img": "images/pokemon/gen4/gastrodon_w.png",
-            "chest_opened_img": "images/pokemon/gen4/gastrodon_w-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/gastrodon_e-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Drifblim",
-            "access_rules": [ "Drifloon" ],
+            "access_rules": "Drifloon, [$isRecruitInLogic|0.52]",
             "chest_unopened_img": "images/pokemon/gen4/drifblim.png",
-            "chest_opened_img": "images/pokemon/gen4/drifblim-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/drifblim-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.52"
+            ]
           },
           {
             "name": "Lopunny",
-            "access_rules": [ "Buneary" ],
+            "access_rules": "Buneary, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/lopunny.png",
-            "chest_opened_img": "images/pokemon/gen4/lopunny-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/lopunny-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Purugly",
-            "access_rules": [ "Glameow" ],
+            "access_rules": "Glameow, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/purugly.png",
-            "chest_opened_img": "images/pokemon/gen4/purugly-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/purugly-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Skuntank",
-            "access_rules": [ "Stunky" ],
+            "access_rules": "Stunky, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/skuntank.png",
-            "chest_opened_img": "images/pokemon/gen4/skuntank-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/skuntank-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Bronzong",
-            "access_rules": [ "Bronzor" ],
+            "access_rules": "Bronzor, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/bronzong.png",
-            "chest_opened_img": "images/pokemon/gen4/bronzong-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/bronzong-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Gabite",
-            "access_rules": [ "Gible" ],
+            "access_rules": "Gible, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/gabite.png",
-            "chest_opened_img": "images/pokemon/gen4/gabite-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/gabite-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Garchomp",
-            "access_rules": [ "Gible", "Gabite" ],
+            "access_rules": "Gabite, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/garchomp.png",
-            "chest_opened_img": "images/pokemon/gen4/garchomp-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/garchomp-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Lucario",
-            "access_rules": [ "Riolu" ],
+            "access_rules": "Riolu, $isEvolutionItemAvailable, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/lucario.png",
-            "chest_opened_img": "images/pokemon/gen4/lucario-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/lucario-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Hippowdon",
-            "access_rules": [ "Hippopotas" ],
+            "access_rules": "Hippopotas, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/hippowdon.png",
-            "chest_opened_img": "images/pokemon/gen4/hippowdon-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/hippowdon-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Drapion",
-            "access_rules": [ "Skorupi" ],
+            "access_rules": "Skorupi, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/drapion.png",
-            "chest_opened_img": "images/pokemon/gen4/drapion-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/drapion-gray.png",
+            "visibility_rules": [
+              "$canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Toxicroak",
-            "access_rules": [ "Croagunk" ],
+            "access_rules": "Croagunk, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/toxicroak.png",
-            "chest_opened_img": "images/pokemon/gen4/toxicroak-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/toxicroak-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Lumineon",
-            "access_rules": [ "Finneon" ],
+            "access_rules": "Finneon, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/lumineon.png",
-            "chest_opened_img": "images/pokemon/gen4/lumineon-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/lumineon-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Abomasnow",
-            "access_rules": [ "Snover" ],
+            "access_rules": "Snover, [$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/abomasnow.png",
-            "chest_opened_img": "images/pokemon/gen4/abomasnow-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/abomasnow-gray.png",
+            "visibility_rules": [
+              "$darkraiGoal, $canBeRecruited|0.577"
+            ]
           }
         ],
         "map_locations": [

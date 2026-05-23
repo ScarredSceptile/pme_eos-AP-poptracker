@@ -154,6 +154,7 @@ ITEM_MAPPING = {
 	[551] = {{"Recruit Evolution"}, {"toggle"}},
 	[552] = {{"Recruitment"}, {"toggle"}},
 	[553] = {{"Formation Control"}, {"toggle"}},
+	[552] = {{"ProgressiveRecruitment"}, {"consumable"}},
 	[464] = {{"Miracle Chest"}, {"toggle"}},
 	[465] = {{"Wonder Chest"}, {"toggle"}},
 	[700] = {{"Main Game Unlock"}, {"toggle"}},

@@ -1,0 +1,43 @@
+{
+  "items": {
+
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "group",
+        "header": "Items",
+        "dock": "bottom",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "10, 10",
+            "h_alignment": "left",
+            "rows": [
+              [
+                "RelicFragmentCount",
+                "BagUpgrades"
+              ],
+              [
+                "Bidoof SE",
+                "Igglybuff SE",
+                "Sunflora SE",
+                "Team Charm SE",
+                "Grovyle + Dusknoir SE"
+              ],
+              [
+                "Hot Springs",
+                "Recruit Evolution",
+                "Hero Evolution",
+                "ProgressiveRecruitment",
+                "Formation Control"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

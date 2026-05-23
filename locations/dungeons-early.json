@@ -1,7 +1,9 @@
 [
   {
     "name": "Dungeons",
-    "access_rules": [ "Main Game Unlock" ],
+    "access_rules": [
+      "Main Game Unlock"
+    ],
     "chest_unopened_img": "images/locations/available.png",
     "chest_opened_img": "images/locations/collected.png",
     "children": [
@@ -9,25 +11,33 @@
         "name": "Beach Cave (4F)",
         "sections": [
           {
-            "name": "Complete Beach Cave",
+            "name": "Complete Beach Cave"
           },
           {
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Beach Cave" ],
+            "access_rules": [
+              "Complete Beach Cave"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Beach Cave" ],
+            "access_rules": [
+              "Complete Beach Cave"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           }
         ],
         "map_locations": [
@@ -42,11 +52,12 @@
             "y": 190
           }
         ]
-
       },
       {
         "name": "Drenched Bluff (6F)",
-        "access_rules": [ "Drenched Bluff" ],
+        "access_rules": [
+          "Drenched Bluff"
+        ],
         "sections": [
           {
             "name": "Complete Drenched Bluff"
@@ -55,47 +66,63 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Drenched Bluff" ],
+            "access_rules": [
+              "Complete Drenched Bluff"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Drenched Bluff" ],
+            "access_rules": [
+              "Complete Drenched Bluff"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Lileep",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/lileep.png",
-            "chest_opened_img": "images/pokemon/gen3/lileep-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/lileep-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Anorith",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/anorith.png",
-            "chest_opened_img": "images/pokemon/gen3/anorith-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/anorith-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
-            "name": "Shellos West Sea",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "name": "Shellos",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen4/shellos_w.png",
-            "chest_opened_img": "images/pokemon/gen4/shellos_w-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/shellos_w-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Chingling",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/chingling.png",
-            "chest_opened_img": "images/pokemon/gen4/chingling-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/chingling-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           }
         ],
         "map_locations": [
@@ -105,11 +132,12 @@
             "y": 204
           }
         ]
-
       },
       {
         "name": "Mt. Bristle (9F)",
-        "access_rules": [ "Mt. Bristle" ],
+        "access_rules": [
+          "Mt. Bristle"
+        ],
         "sections": [
           {
             "name": "Complete Mt. Bristle",
@@ -123,68 +151,90 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Mt. Bristle" ],
+            "access_rules": [
+              "Complete Mt. Bristle"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Mt. Bristle" ],
+            "access_rules": [
+              "Complete Mt. Bristle"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Machop",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/machop.png",
-            "chest_opened_img": "images/pokemon/gen1/machop-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/machop-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Geodude",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/geodude.png",
-            "chest_opened_img": "images/pokemon/gen1/geodude-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/geodude-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Doduo",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/doduo.png",
-            "chest_opened_img": "images/pokemon/gen1/doduo-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/doduo-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Spinarak",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen2/spinarak.png",
-            "chest_opened_img": "images/pokemon/gen2/spinarak-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/spinarak-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Starly",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/starly.png",
-            "chest_opened_img": "images/pokemon/gen4/starly-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/starly-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Nidorina",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen1/nidorina.png",
-            "chest_opened_img": "images/pokemon/gen1/nidorina-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/nidorina-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
-            "name": "Chingling",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
-            "chest_unopened_img": "images/pokemon/gen4/chingling.png",
-            "chest_opened_img": "images/pokemon/gen4/chingling-gray.png"
+            "name": "Nidorino",
+            "access_rules": "[$isRecruitInLogic|0.5]",
+            "chest_unopened_img": "images/pokemon/gen1/nidorino.png",
+            "chest_opened_img": "images/pokemon/gen1/nidorino-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           }
         ],
         "map_locations": [
@@ -194,11 +244,12 @@
             "y": 132
           }
         ]
-
       },
       {
         "name": "Waterfall Cave (8F)",
-        "access_rules": [ "Waterfall Cave" ],
+        "access_rules": [
+          "Waterfall Cave"
+        ],
         "sections": [
           {
             "name": "Complete Waterfall Cave"
@@ -207,89 +258,117 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Waterfall Cave" ],
+            "access_rules": [
+              "Complete Waterfall Cave"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Waterfall Cave" ],
+            "access_rules": [
+              "Complete Waterfall Cave"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Psyduck",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/psyduck.png",
-            "chest_opened_img": "images/pokemon/gen1/psyduck-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/psyduck-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Poliwag",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/poliwag.png",
-            "chest_opened_img": "images/pokemon/gen1/poliwag-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/poliwag-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Grimer",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/grimer.png",
-            "chest_opened_img": "images/pokemon/gen1/grimer-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/grimer-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Tangela",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/tangela.png",
-            "chest_opened_img": "images/pokemon/gen1/tangela-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/tangela-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Wooper",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/wooper.png",
-            "chest_opened_img": "images/pokemon/gen2/wooper-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/wooper-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Lotad",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/lotad.png",
-            "chest_opened_img": "images/pokemon/gen3/lotad-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/lotad-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Surskit",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/surskit.png",
-            "chest_opened_img": "images/pokemon/gen3/surskit-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/surskit-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Barboach",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/barboach.png",
-            "chest_opened_img": "images/pokemon/gen3/barboach-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/barboach-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Whiscash",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/whiscash.png",
-            "chest_opened_img": "images/pokemon/gen3/whiscash-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/whiscash-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Kecleon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "$recruitEndInLogic",
             "chest_unopened_img": "images/pokemon/gen3/kecleon.png",
-            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, LongLocations, RecruitLongLocations, $canBeRecruited|0"
+            ]
           }
         ],
         "map_locations": [
@@ -299,11 +378,12 @@
             "y": 156
           }
         ]
-
       },
       {
         "name": "Apple Woods (12F)",
-        "access_rules": [ "Apple Woods" ],
+        "access_rules": [
+          "Apple Woods"
+        ],
         "sections": [
           {
             "name": "Complete Apple Woods"
@@ -315,117 +395,153 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Apple Woods" ],
+            "access_rules": [
+              "Complete Apple Woods"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Apple Woods" ],
+            "access_rules": [
+              "Complete Apple Woods"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Caterpie",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/caterpie.png",
-            "chest_opened_img": "images/pokemon/gen1/caterpie-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/caterpie-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Hoppip",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/hoppip.png",
-            "chest_opened_img": "images/pokemon/gen2/hoppip-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/hoppip-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Budew",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/budew.png",
-            "chest_opened_img": "images/pokemon/gen4/budew-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/budew-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
-            "name": "Burmy Sandy Cloak",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "name": "Burmy",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/burmy_s.png",
-            "chest_opened_img": "images/pokemon/gen4/burmy_s-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/burmy_s-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Oddish",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/oddish.png",
-            "chest_opened_img": "images/pokemon/gen1/oddish-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/oddish-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Butterfree",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.55]",
             "chest_unopened_img": "images/pokemon/gen1/butterfree.png",
-            "chest_opened_img": "images/pokemon/gen1/butterfree-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/butterfree-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.55"
+            ]
           },
           {
             "name": "Paras",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/paras.png",
-            "chest_opened_img": "images/pokemon/gen1/paras-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/paras-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Weedle",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/weedle.png",
-            "chest_opened_img": "images/pokemon/gen1/weedle-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/weedle-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Exeggutor",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen1/exeggutor.png",
-            "chest_opened_img": "images/pokemon/gen1/exeggutor-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/exeggutor-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Combee",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen4/combee.png",
-            "chest_opened_img": "images/pokemon/gen4/combee-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/combee-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Gloom",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.496]",
             "chest_unopened_img": "images/pokemon/gen1/gloom.png",
-            "chest_opened_img": "images/pokemon/gen1/gloom-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/gloom-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.496"
+            ]
           },
           {
             "name": "Kakuna",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.545]",
             "chest_unopened_img": "images/pokemon/gen1/kakuna.png",
-            "chest_opened_img": "images/pokemon/gen1/kakuna-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/kakuna-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.545"
+            ]
           },
           {
             "name": "Beedrill",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.545]",
             "chest_unopened_img": "images/pokemon/gen1/beedrill.png",
-            "chest_opened_img": "images/pokemon/gen1/beedrill-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/beedrill-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.545"
+            ]
           },
           {
             "name": "Kecleon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "$recruitEndInLogic",
             "chest_unopened_img": "images/pokemon/gen3/kecleon.png",
-            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, LongLocations, RecruitLongLocations, $canBeRecruited|0"
+            ]
           }
         ],
         "map_locations": [
@@ -435,11 +551,12 @@
             "y": 156
           }
         ]
-
       },
       {
         "name": "Craggy Coast (9F)",
-        "access_rules": [ "Craggy Coast" ],
+        "access_rules": [
+          "Craggy Coast"
+        ],
         "sections": [
           {
             "name": "Complete Craggy Coast"
@@ -448,68 +565,90 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Craggy Coast" ],
+            "access_rules": [
+              "Complete Craggy Coast"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Craggy Coast" ],
+            "access_rules": [
+              "Complete Craggy Coast"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Spheal",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/spheal.png",
-            "chest_opened_img": "images/pokemon/gen3/spheal-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/spheal-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Krabby",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/krabby.png",
-            "chest_opened_img": "images/pokemon/gen1/krabbygray.png"
+            "chest_opened_img": "images/pokemon/gen1/krabbygray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Dratini",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/dratini.png",
-            "chest_opened_img": "images/pokemon/gen1/dratini-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/dratini-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Wingull",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/wingull.png",
-            "chest_opened_img": "images/pokemon/gen3/wingull-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/wingull-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
-            "name": "Gastrodon Eest Sea",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "name": "Gastrodon",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/gastrodon_e.png",
-            "chest_opened_img": "images/pokemon/gen4/gastrodon_e-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/gastrodon_e-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Sealeo",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/sealeo.png",
-            "chest_opened_img": "images/pokemon/gen3/sealeo-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/sealeo-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Kecleon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "$recruitEndInLogic",
             "chest_unopened_img": "images/pokemon/gen3/kecleon.png",
-            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, LongLocations, RecruitLongLocations, $canBeRecruited|0"
+            ]
           }
         ],
         "map_locations": [
@@ -519,11 +658,12 @@
             "y": 204
           }
         ]
-
       },
       {
         "name": "Side Path (5F)",
-        "access_rules": [ "Side Path" ],
+        "access_rules": [
+          "Side Path"
+        ],
         "sections": [
           {
             "name": "Complete Side Path"
@@ -532,19 +672,27 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Side Path" ],
+            "access_rules": [
+              "Complete Side Path"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Side Path" ],
+            "access_rules": [
+              "Complete Side Path"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           }
         ],
         "map_locations": [
@@ -554,11 +702,12 @@
             "y": 204
           }
         ]
-
       },
       {
         "name": "Mt. Horn (14F)",
-        "access_rules": [ "Mt. Horn" ],
+        "access_rules": [
+          "Mt. Horn"
+        ],
         "sections": [
           {
             "name": "Complete Mt. Horn"
@@ -567,96 +716,126 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Mt. Horn" ],
+            "access_rules": [
+              "Complete Mt. Horn"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Mt. Horn" ],
+            "access_rules": [
+              "Complete Mt. Horn"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Beautifly",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/beautifly.png",
-            "chest_opened_img": "images/pokemon/gen3/beautifly-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/beautifly-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Shroomish",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/shroomish.png",
-            "chest_opened_img": "images/pokemon/gen3/shroomish-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/shroomish-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Parasect",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen1/parasect.png",
-            "chest_opened_img": "images/pokemon/gen1/parasect-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/parasect-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Natu",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/natu.png",
-            "chest_opened_img": "images/pokemon/gen2/natu-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/natu-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Ariados",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen2/ariados.png",
-            "chest_opened_img": "images/pokemon/gen2/ariados-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/ariados-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Cascoon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen3/cascoon.png",
-            "chest_opened_img": "images/pokemon/gen3/cascoon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/cascoon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Venomoth",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen1/venomoth.png",
-            "chest_opened_img": "images/pokemon/gen1/venomoth-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/venomoth-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Aerodactyl",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/aerodactyl.png",
-            "chest_opened_img": "images/pokemon/gen1/aerodactyl-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/aerodactyl-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Pineco",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/pineco.png",
-            "chest_opened_img": "images/pokemon/gen2/pineco-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/pineco-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Bonsly",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/bonsly.png",
-            "chest_opened_img": "images/pokemon/gen4/bonsly-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/bonsly-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Kecleon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "$recruitEndInLogic",
             "chest_unopened_img": "images/pokemon/gen3/kecleon.png",
-            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, LongLocations, RecruitLongLocations, $canBeRecruited|0"
+            ]
           }
         ],
         "map_locations": [
@@ -666,11 +845,12 @@
             "y": 188
           }
         ]
-
       },
       {
         "name": "Rock Path (5F)",
-        "access_rules": [ "Rock Path" ],
+        "access_rules": [
+          "Rock Path"
+        ],
         "sections": [
           {
             "name": "Complete Rock Path"
@@ -679,19 +859,27 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Rock Path" ],
+            "access_rules": [
+              "Complete Rock Path"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Rock Path" ],
+            "access_rules": [
+              "Complete Rock Path"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           }
         ],
         "map_locations": [
@@ -701,11 +889,12 @@
             "y": 188
           }
         ]
-
       },
       {
         "name": "Foggy Forest (11F)",
-        "access_rules": [ "Foggy Forest" ],
+        "access_rules": [
+          "Foggy Forest"
+        ],
         "sections": [
           {
             "name": "Complete Foggy Forest"
@@ -714,110 +903,135 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Foggy Forest" ],
+            "access_rules": [
+              "Complete Foggy Forest"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Foggy Forest" ],
+            "access_rules": [
+              "Complete Foggy Forest"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Hoothoot",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen2/hoothoot.png",
-            "chest_opened_img": "images/pokemon/gen2/hoothoot-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/hoothoot-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Dunsparce",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen2/dunsparce.png",
-            "chest_opened_img": "images/pokemon/gen2/dunsparce-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/dunsparce-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Smeargle",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.563]",
             "chest_unopened_img": "images/pokemon/gen2/smeargle.png",
-            "chest_opened_img": "images/pokemon/gen2/smeargle-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/smeargle-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.563"
+            ]
           },
           {
             "name": "Cherubi",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/cherubi.png",
-            "chest_opened_img": "images/pokemon/gen4/cherubi-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/cherubi-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Skiploom",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen2/skiploom.png",
-            "chest_opened_img": "images/pokemon/gen2/skiploom-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/skiploom-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Zigzagoon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/zigzagoon.png",
-            "chest_opened_img": "images/pokemon/gen3/zigzagoon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/zigzagoon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Pachirisu",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/pachirisu.png",
-            "chest_opened_img": "images/pokemon/gen4/pachirisu-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/pachirisu-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Noctowl",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen2/noctowl.png",
-            "chest_opened_img": "images/pokemon/gen2/noctowl-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/noctowl-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Stantler",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen2/stantler.png",
-            "chest_opened_img": "images/pokemon/gen2/stantler-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/stantler-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Buneary",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/buneary.png",
-            "chest_opened_img": "images/pokemon/gen4/buneary-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/buneary-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Pinsir",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/pinsir.png",
-            "chest_opened_img": "images/pokemon/gen1/pinsir-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/pinsir-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Breloom",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/breloom.png",
-            "chest_opened_img": "images/pokemon/gen3/breloom-gray.png"
-          },
-          {
-            "name": "Kecleon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
-            "chest_unopened_img": "images/pokemon/gen3/kecleon.png",
-            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/breloom-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           }
         ],
         "map_locations": [
@@ -827,11 +1041,12 @@
             "y": 204
           }
         ]
-
       },
       {
         "name": "Forest Path (5F)",
-        "access_rules": [ "Forest Path" ],
+        "access_rules": [
+          "Forest Path"
+        ],
         "sections": [
           {
             "name": "Complete Forest Path"
@@ -840,19 +1055,27 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Forest Path" ],
+            "access_rules": [
+              "Complete Forest Path"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Forest Path" ],
+            "access_rules": [
+              "Complete Forest Path"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           }
         ],
         "map_locations": [
@@ -862,11 +1085,12 @@
             "y": 204
           }
         ]
-
       },
       {
         "name": "Steam Cave (8F)",
-        "access_rules": [ "Steam Cave" ],
+        "access_rules": [
+          "Steam Cave"
+        ],
         "sections": [
           {
             "name": "Complete Steam Cave",
@@ -878,119 +1102,148 @@
           },
           {
             "name": "Recruit Uxie",
+            "access_rules": [
+              "Complete Temporal Tower, Complete Steam Cave"
+            ],
             "chest_unopened_img": "images/locations/legendaries/uxie.png",
             "chest_opened_img": "images/locations/legendaries/uxie-gray.png",
-            "access_rules": [ "Complete Temporal Tower, Complete Steam Cave" ],
-            "visibility_rules": [ "$darkraiGoal" ]
+            "visibility_rules": [
+              "$darkraiGoal"
+            ]
           },
           {
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Steam Cave" ],
+            "access_rules": [
+              "Complete Steam Cave"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Steam Cave" ],
+            "access_rules": [
+              "Complete Steam Cave"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Farfetch'd",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/farfetch'd.png",
-            "chest_opened_img": "images/pokemon/gen1/farfetch'd-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/farfetch'd-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Yanma",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/yanma.png",
-            "chest_opened_img": "images/pokemon/gen2/yanma-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/yanma-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Snubbull",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen2/snubbull.png",
-            "chest_opened_img": "images/pokemon/gen2/snubbull-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/snubbull-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Slugma",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/slugma.png",
-            "chest_opened_img": "images/pokemon/gen2/slugma-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/slugma-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Magby",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/magby.png",
-            "chest_opened_img": "images/pokemon/gen2/magby-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/magby-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Numel",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/numel.png",
-            "chest_opened_img": "images/pokemon/gen3/numel-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/numel-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Kricketune",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.54]",
             "chest_unopened_img": "images/pokemon/gen4/kricketune.png",
-            "chest_opened_img": "images/pokemon/gen4/kricketune-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/kricketune-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.54"
+            ]
           },
           {
             "name": "Granbull",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen2/granbull.png",
-            "chest_opened_img": "images/pokemon/gen2/granbull-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/granbull-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Shuckle",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/shuckle.png",
-            "chest_opened_img": "images/pokemon/gen2/shuckle-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/shuckle-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Volbeat",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/volbeat.png",
-            "chest_opened_img": "images/pokemon/gen3/volbeat-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/volbeat-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Illumise",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/illumise.png",
-            "chest_opened_img": "images/pokemon/gen3/illumise-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/illumise-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Magmar",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen1/magmar.png",
-            "chest_opened_img": "images/pokemon/gen1/magmar-gray.png"
-          },
-          {
-            "name": "Kecleon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
-            "chest_unopened_img": "images/pokemon/gen3/kecleon.png",
-            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/magmar-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           }
         ],
         "map_locations": [
@@ -1000,11 +1253,12 @@
             "y": 228
           }
         ]
-
       },
       {
         "name": "Amp Plains (10F)",
-        "access_rules": [ "Amp Plains" ],
+        "access_rules": [
+          "Amp Plains"
+        ],
         "sections": [
           {
             "name": "Complete Amp Plains",
@@ -1015,166 +1269,207 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Amp Plains" ],
+            "access_rules": [
+              "Complete Amp Plains"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Amp Plains" ],
+            "access_rules": [
+              "Complete Amp Plains"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Plusle",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/plusle.png",
-            "chest_opened_img": "images/pokemon/gen3/plusle-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/plusle-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Minun",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/minun.png",
-            "chest_opened_img": "images/pokemon/gen3/minun-gray.png"
-          },
-          {
-            "name": "Natu",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
-            "chest_unopened_img": "images/pokemon/gen2/natu.png",
-            "chest_opened_img": "images/pokemon/gen2/natu-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/minun-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Mareep",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/mareep.png",
-            "chest_opened_img": "images/pokemon/gen2/mareep-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/mareep-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Phanpy",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/phanpy.png",
-            "chest_opened_img": "images/pokemon/gen2/phanpy-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/phanpy-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Elekid",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/elekid.png",
-            "chest_opened_img": "images/pokemon/gen2/elekid-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/elekid-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Shinx",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/shinx.png",
-            "chest_opened_img": "images/pokemon/gen4/shinx-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/shinx-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Girafarig",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen2/girafarig.png",
-            "chest_opened_img": "images/pokemon/gen2/girafarig-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/girafarig-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Zapdos",
-            "access_rules": ["Recruitment, Secret Slab", "Recruitment, Mystery Part"],
-            "visibility_rules": "RecruitAll",
+            "access_rules": "$recruitEndInLogic",
             "chest_unopened_img": "images/pokemon/gen1/zapdos.png",
-            "chest_opened_img": "images/pokemon/gen1/zapdos-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/zapdos-gray.png",
+            "visibility_rules": [
+              "RecruitAll, LongLocations, RecruitLongLocations, $canBeRecruited|0.595"
+            ]
           },
           {
             "name": "Flaaffy",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen2/flaaffy.png",
-            "chest_opened_img": "images/pokemon/gen2/flaaffy-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/flaaffy-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Pikachu",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/pikachu.png",
-            "chest_opened_img": "images/pokemon/gen1/pikachu-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/pikachu-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Pichu",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.546]",
             "chest_unopened_img": "images/pokemon/gen2/pichu.png",
-            "chest_opened_img": "images/pokemon/gen2/pichu-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/pichu-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.546"
+            ]
           },
           {
             "name": "Yanmega",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen4/yanmega.png",
-            "chest_opened_img": "images/pokemon/gen4/yanmega-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/yanmega-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Electabuzz",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen1/electabuzz.png",
-            "chest_opened_img": "images/pokemon/gen1/electabuzz-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/electabuzz-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Tauros",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/tauros.png",
-            "chest_opened_img": "images/pokemon/gen1/tauros-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/tauros-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Dodrio",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen1/dodrio.png",
-            "chest_opened_img": "images/pokemon/gen1/dodrio-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/dodrio-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Electrike",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/electrike.png",
-            "chest_opened_img": "images/pokemon/gen3/electrike-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/electrike-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Luxio",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen4/luxio.png",
-            "chest_opened_img": "images/pokemon/gen4/luxio-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/luxio-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Luxray",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.375]",
             "chest_unopened_img": "images/pokemon/gen4/luxray.png",
-            "chest_opened_img": "images/pokemon/gen4/luxray-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/luxray-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.375"
+            ]
           },
           {
             "name": "Ampharos",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen2/ampharos.png",
-            "chest_opened_img": "images/pokemon/gen2/ampharos-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/ampharos-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Kecleon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "$recruitEndInLogic",
             "chest_unopened_img": "images/pokemon/gen3/kecleon.png",
-            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, LongLocations, RecruitLongLocations, $canBeRecruited|0"
+            ]
           }
         ],
         "map_locations": [
@@ -1184,11 +1479,12 @@
             "y": 108
           }
         ]
-
       },
       {
         "name": "Northern Desert (15F)",
-        "access_rules": [ "Northern Desert" ],
+        "access_rules": [
+          "Northern Desert"
+        ],
         "sections": [
           {
             "name": "Complete Northern Desert"
@@ -1197,103 +1493,126 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Northern Desert" ],
+            "access_rules": [
+              "Complete Northern Desert"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Northern Desert" ],
+            "access_rules": [
+              "Complete Northern Desert"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Baltoy",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.551]",
             "chest_unopened_img": "images/pokemon/gen3/baltoy.png",
-            "chest_opened_img": "images/pokemon/gen3/baltoy-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/baltoy-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.551"
+            ]
           },
           {
             "name": "Cubone",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/cubone.png",
-            "chest_opened_img": "images/pokemon/gen1/cubone-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/cubone-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Aron",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/aron.png",
-            "chest_opened_img": "images/pokemon/gen3/aron-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/aron-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Cacnea",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/cacnea.png",
-            "chest_opened_img": "images/pokemon/gen3/cacnea-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/cacnea-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Larvitar",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/larvitar.png",
-            "chest_opened_img": "images/pokemon/gen2/larvitar-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/larvitar-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Sandshrew",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/sandshrew.png",
-            "chest_opened_img": "images/pokemon/gen1/sandshrew-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/sandshrew-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Trapinch",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/trapinch.png",
-            "chest_opened_img": "images/pokemon/gen3/trapinch-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/trapinch-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Carnivine",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/carnivine.png",
-            "chest_opened_img": "images/pokemon/gen4/carnivine-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/carnivine-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Rhyhorn",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/rhyhorn.png",
-            "chest_opened_img": "images/pokemon/gen1/rhyhorn-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/rhyhorn-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Lairon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/lairon.png",
-            "chest_opened_img": "images/pokemon/gen3/lairon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/lairon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Cacturne",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/cacturne.png",
-            "chest_opened_img": "images/pokemon/gen3/cacturne-gray.png"
-          },
-          {
-            "name": "Kecleon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
-            "chest_unopened_img": "images/pokemon/gen3/kecleon.png",
-            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/cacturne-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           }
         ],
         "map_locations": [
@@ -1303,109 +1622,133 @@
             "y": 108
           }
         ]
-
       },
       {
         "name": "Quicksand Cave (10F)",
-        "access_rules": [ "Quicksand Cave" ],
+        "access_rules": [
+          "Quicksand Cave"
+        ],
         "sections": [
           {
             "name": "Complete Quicksand Cave"
           },
           {
             "name": "Recruit Mesprit",
+            "access_rules": [
+              "Complete Temporal Tower, Complete Quicksand Cave"
+            ],
             "chest_unopened_img": "images/locations/legendaries/mesprit.png",
             "chest_opened_img": "images/locations/legendaries/mesprit-gray.png",
-            "access_rules": [ "Complete Temporal Tower, Complete Quicksand Cave" ],
-            "visibility_rules": [ "$darkraiGoal" ]
+            "visibility_rules": [
+              "$darkraiGoal"
+            ]
           },
           {
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Quicksand Cave" ],
+            "access_rules": [
+              "Complete Quicksand Cave"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Quicksand Cave" ],
+            "access_rules": [
+              "Complete Quicksand Cave"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Nincada",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/nincada.png",
-            "chest_opened_img": "images/pokemon/gen3/nincada-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/nincada-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Vibrava",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/vibrava.png",
-            "chest_opened_img": "images/pokemon/gen3/vibrava-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/vibrava-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Pupitar",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen2/pupitar.png",
-            "chest_opened_img": "images/pokemon/gen2/pupitar-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/pupitar-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Skorupi",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/skorupi.png",
-            "chest_opened_img": "images/pokemon/gen4/skorupi-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/skorupi-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Sandslash",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen1/sandslash.png",
-            "chest_opened_img": "images/pokemon/gen1/sandslash-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/sandslash-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Mawile",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/mawile.png",
-            "chest_opened_img": "images/pokemon/gen3/mawile-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/mawile-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Tyranitar",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.375]",
             "chest_unopened_img": "images/pokemon/gen2/tyranitar.png",
-            "chest_opened_img": "images/pokemon/gen2/tyranitar-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/tyranitar-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.375"
+            ]
           },
           {
             "name": "Hippopotas",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/hippopotas.png",
-            "chest_opened_img": "images/pokemon/gen4/hippopotas-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/hippopotas-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Ninjask",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/ninjask.png",
-            "chest_opened_img": "images/pokemon/gen3/ninjask-gray.png"
-          },
-          {
-            "name": "Kecleon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
-            "chest_unopened_img": "images/pokemon/gen3/kecleon.png",
-            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/ninjask-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           }
         ],
         "map_locations": [
@@ -1415,11 +1758,12 @@
             "y": 116
           }
         ]
-
       },
       {
         "name": "Crystal Cave (11F)",
-        "access_rules": [ "Crystal Cave" ],
+        "access_rules": [
+          "Crystal Cave"
+        ],
         "sections": [
           {
             "name": "Complete Crystal Cave"
@@ -1428,89 +1772,117 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Crystal Cave" ],
+            "access_rules": [
+              "Complete Crystal Cave"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Crystal Cave" ],
+            "access_rules": [
+              "Complete Crystal Cave"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Graveler",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen1/graveler.png",
-            "chest_opened_img": "images/pokemon/gen1/graveler-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/graveler-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Seviper",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/seviper.png",
-            "chest_opened_img": "images/pokemon/gen3/seviper-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/seviper-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Beldum",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/beldum.png",
-            "chest_opened_img": "images/pokemon/gen3/beldum-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/beldum-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
-            "name": "Wormadam Sandy Cloak",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "name": "Wormadam",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/wormadam_s.png",
-            "chest_opened_img": "images/pokemon/gen4/wormadam_s-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/wormadam_s-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Riolu",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/riolu.png",
-            "chest_opened_img": "images/pokemon/gen4/riolu-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/riolu-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Cranidos",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/cranidos.png",
-            "chest_opened_img": "images/pokemon/gen4/cranidos-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/cranidos-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Donphan",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen2/donphan.png",
-            "chest_opened_img": "images/pokemon/gen2/donphan-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/donphan-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Shieldon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/shieldon.png",
-            "chest_opened_img": "images/pokemon/gen4/shieldon-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/shieldon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Golem",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen1/golem.png",
-            "chest_opened_img": "images/pokemon/gen1/golem-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/golem-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Kecleon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "$recruitEndInLogic",
             "chest_unopened_img": "images/pokemon/gen3/kecleon.png",
-            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, LongLocations, RecruitLongLocations, $canBeRecruited|0"
+            ]
           }
         ],
         "map_locations": [
@@ -1520,95 +1892,124 @@
             "y": 92
           }
         ]
-
       },
       {
         "name": "Crystal Crossing (13F)",
-        "access_rules": [ "Crystal Crossing" ],
+        "access_rules": [
+          "Crystal Crossing"
+        ],
         "sections": [
           {
             "name": "Complete Crystal Crossing"
           },
           {
             "name": "Recruit Azelf",
+            "access_rules": [
+              "Complete Temporal Tower, Complete Crystal Crossing"
+            ],
             "chest_unopened_img": "images/locations/legendaries/azelf.png",
             "chest_opened_img": "images/locations/legendaries/azelf-gray.png",
-            "access_rules": [ "Complete Temporal Tower, Complete Crystal Crossing" ],
-            "visibility_rules": [ "$darkraiGoal" ]
+            "visibility_rules": [
+              "$darkraiGoal"
+            ]
           },
           {
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Crystal Crossing" ],
+            "access_rules": [
+              "Complete Crystal Crossing"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Crystal Crossing" ],
+            "access_rules": [
+              "Complete Crystal Crossing"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Bagon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/bagon.png",
-            "chest_opened_img": "images/pokemon/gen3/bagon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/bagon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Floatzel",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen4/floatzel.png",
-            "chest_opened_img": "images/pokemon/gen4/floatzel-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/floatzel-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
-            "name": "Wormadam Plant Cloak",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "name": "Wormadam",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/wormadam_p.png",
-            "chest_opened_img": "images/pokemon/gen4/wormadam_p-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/wormadam_p-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Glameow",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/glameow.png",
-            "chest_opened_img": "images/pokemon/gen4/glameow-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/glameow-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Absol",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.563]",
             "chest_unopened_img": "images/pokemon/gen3/absol.png",
-            "chest_opened_img": "images/pokemon/gen3/absol-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/absol-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.563"
+            ]
           },
           {
             "name": "Glalie",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/glalie.png",
-            "chest_opened_img": "images/pokemon/gen3/glalie-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/glalie-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Froslass",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen4/froslass.png",
-            "chest_opened_img": "images/pokemon/gen4/froslass-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/froslass-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Kecleon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "$recruitEndInLogic",
             "chest_unopened_img": "images/pokemon/gen3/kecleon.png",
-            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, LongLocations, RecruitLongLocations, $canBeRecruited|0"
+            ]
           }
         ],
         "map_locations": [
@@ -1618,11 +2019,12 @@
             "y": 68
           }
         ]
-
       },
       {
         "name": "Chasm Cave (8F)",
-        "access_rules": [ "Chasm Cave" ],
+        "access_rules": [
+          "Chasm Cave"
+        ],
         "sections": [
           {
             "name": "Complete Chasm Cave"
@@ -1631,19 +2033,27 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Chasm Cave" ],
+            "access_rules": [
+              "Complete Chasm Cave"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Chasm Cave" ],
+            "access_rules": [
+              "Complete Chasm Cave"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           }
         ],
         "map_locations": [
@@ -1653,11 +2063,12 @@
             "y": 84
           }
         ]
-
       },
       {
         "name": "Dark Hill (15F)",
-        "access_rules": [ "Dark Hill" ],
+        "access_rules": [
+          "Dark Hill"
+        ],
         "sections": [
           {
             "name": "Complete Dark Hill"
@@ -1666,19 +2077,27 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Dark Hill" ],
+            "access_rules": [
+              "Complete Dark Hill"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Dark Hill" ],
+            "access_rules": [
+              "Complete Dark Hill"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           }
         ],
         "map_locations": [
@@ -1688,11 +2107,12 @@
             "y": 108
           }
         ]
-
       },
       {
         "name": "Sealed Ruin (8F)",
-        "access_rules": [ "Sealed Ruin" ],
+        "access_rules": [
+          "Sealed Ruin"
+        ],
         "sections": [
           {
             "name": "Complete Sealed Ruin"
@@ -1701,19 +2121,27 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Sealed Ruin" ],
+            "access_rules": [
+              "Complete Sealed Ruin"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Sealed Ruin" ],
+            "access_rules": [
+              "Complete Sealed Ruin"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           }
         ],
         "map_locations": [
@@ -1723,11 +2151,12 @@
             "y": 124
           }
         ]
-
       },
       {
         "name": "Dusk Forest (8F)",
-        "access_rules": [ "Dusk Forest" ],
+        "access_rules": [
+          "Dusk Forest"
+        ],
         "sections": [
           {
             "name": "Complete Dusk Forest"
@@ -1736,19 +2165,27 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Dusk Forest" ],
+            "access_rules": [
+              "Complete Dusk Forest"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Dusk Forest" ],
+            "access_rules": [
+              "Complete Dusk Forest"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           }
         ],
         "map_locations": [
@@ -1758,11 +2195,12 @@
             "y": 92
           }
         ]
-
       },
       {
         "name": "Deep Dusk Forest (12F)",
-        "access_rules": [ "Deep Dusk Forest" ],
+        "access_rules": [
+          "Deep Dusk Forest"
+        ],
         "sections": [
           {
             "name": "Complete Deep Dusk Forest",
@@ -1773,19 +2211,27 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Deep Dusk Forest" ],
+            "access_rules": [
+              "Complete Deep Dusk Forest"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Deep Dusk Forest" ],
+            "access_rules": [
+              "Complete Deep Dusk Forest"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           }
         ],
         "map_locations": [
@@ -1795,11 +2241,12 @@
             "y": 68
           }
         ]
-
       },
       {
         "name": "Treeshroud Forest (20F)",
-        "access_rules": [ "Treeshroud Forest" ],
+        "access_rules": [
+          "Treeshroud Forest"
+        ],
         "sections": [
           {
             "name": "Complete Treeshroud Forest"
@@ -1808,82 +2255,108 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Treeshroud Forest" ],
+            "access_rules": [
+              "Complete Treeshroud Forest"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Treeshroud Forest" ],
+            "access_rules": [
+              "Complete Treeshroud Forest"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Kadabra",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen1/kadabra.png",
-            "chest_opened_img": "images/pokemon/gen1/kadabra-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/kadabra-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Ralts",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.545]",
             "chest_unopened_img": "images/pokemon/gen3/ralts.png",
-            "chest_opened_img": "images/pokemon/gen3/ralts-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/ralts-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.545"
+            ]
           },
           {
             "name": "Cherrim",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.51]",
             "chest_unopened_img": "images/pokemon/gen4/cherrim.png",
-            "chest_opened_img": "images/pokemon/gen4/cherrim-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/cherrim-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.51"
+            ]
           },
           {
             "name": "Houndoom",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen2/houndoom.png",
-            "chest_opened_img": "images/pokemon/gen2/houndoom-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/houndoom-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Ninetales",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen1/ninetales.png",
-            "chest_opened_img": "images/pokemon/gen1/ninetales-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/ninetales-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Alakazam",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.375]",
             "chest_unopened_img": "images/pokemon/gen1/alakazam.png",
-            "chest_opened_img": "images/pokemon/gen1/alakazam-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/alakazam-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.375"
+            ]
           },
           {
             "name": "Kirlia",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/kirlia.png",
-            "chest_opened_img": "images/pokemon/gen3/kirlia-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/kirlia-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Vespiquen",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen4/vespiquen.png",
-            "chest_opened_img": "images/pokemon/gen4/vespiquen-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/vespiquen-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Kecleon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "$recruitEndInLogic",
             "chest_unopened_img": "images/pokemon/gen3/kecleon.png",
-            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, LongLocations, RecruitLongLocations, $canBeRecruited|0"
+            ]
           }
         ],
         "map_locations": [
@@ -1893,11 +2366,12 @@
             "y": 108
           }
         ]
-
       },
       {
         "name": "Brine Cave (9F)",
-        "access_rules": [ "Brine Cave" ],
+        "access_rules": [
+          "Brine Cave"
+        ],
         "sections": [
           {
             "name": "Complete Brine Cave"
@@ -1906,96 +2380,117 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Brine Cave" ],
+            "access_rules": [
+              "Complete Brine Cave"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Brine Cave" ],
+            "access_rules": [
+              "Complete Brine Cave"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Seel",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.534]",
             "chest_unopened_img": "images/pokemon/gen1/seel.png",
-            "chest_opened_img": "images/pokemon/gen1/seel-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/seel-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.534"
+            ]
           },
           {
             "name": "Omanyte",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/omanyte.png",
-            "chest_opened_img": "images/pokemon/gen1/omanyte-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/omanyte-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Kingler",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen1/kingler.png",
-            "chest_opened_img": "images/pokemon/gen1/kingler-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/kingler-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Pelipper",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.375]",
             "chest_unopened_img": "images/pokemon/gen3/pelipper.png",
-            "chest_opened_img": "images/pokemon/gen3/pelipper-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/pelipper-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.375"
+            ]
           },
           {
-            "name": "Gastrodon West Sea",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "name": "Gastrodon",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/gastrodon_w.png",
-            "chest_opened_img": "images/pokemon/gen4/gastrodon_w-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/gastrodon_w-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Tentacool",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/tentacool.png",
-            "chest_opened_img": "images/pokemon/gen1/tentacool-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/tentacool-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Dewgong",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen1/dewgong.png",
-            "chest_opened_img": "images/pokemon/gen1/dewgong-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/dewgong-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Staryu",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/staryu.png",
-            "chest_opened_img": "images/pokemon/gen1/staryu-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/staryu-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Dragonair",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen1/dragonair.png",
-            "chest_opened_img": "images/pokemon/gen1/dragonair-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/dragonair-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Walrein",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/walrein.png",
-            "chest_opened_img": "images/pokemon/gen3/walrein-gray.png"
-          },
-          {
-            "name": "Kecleon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
-            "chest_unopened_img": "images/pokemon/gen3/kecleon.png",
-            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/walrein-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           }
         ],
         "map_locations": [
@@ -2005,11 +2500,12 @@
             "y": 156
           }
         ]
-
       },
       {
         "name": "Hidden Land (15F)",
-        "access_rules": [ "$enoughRelicFragments" ],
+        "access_rules": [
+          "$enoughRelicFragments"
+        ],
         "sections": [
           {
             "name": "Complete Hidden Land",
@@ -2025,19 +2521,27 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Hidden Land, [Complete Temporal Tower]" ],
+            "access_rules": [
+              "Complete Hidden Land, [Complete Temporal Tower]"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$late_missions,$darkraiGoal" ]
+            "visibility_rules": [
+              "$late_missions,$darkraiGoal"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Hidden Land, [Complete Temporal Tower]" ],
+            "access_rules": [
+              "Complete Hidden Land, [Complete Temporal Tower]"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$late_outlaws,$darkraiGoal" ]
+            "visibility_rules": [
+              "$late_outlaws,$darkraiGoal"
+            ]
           }
         ],
         "map_locations": [
@@ -2052,11 +2556,12 @@
             "y": 120
           }
         ]
-
       },
       {
         "name": "Temporal Tower (13F)",
-        "access_rules": [ "Temporal Tower, Complete Hidden Land" ],
+        "access_rules": [
+          "Temporal Tower, Complete Hidden Land"
+        ],
         "sections": [
           {
             "name": "Complete Temporal Tower",
@@ -2065,28 +2570,40 @@
           },
           {
             "name": "Recruit Dialga",
+            "access_rules": [
+              "Complete Temporal Tower"
+            ],
             "chest_unopened_img": "images/locations/legendaries/dialga.png",
             "chest_opened_img": "images/locations/legendaries/dialga-gray.png",
-            "access_rules": [ "Complete Temporal Tower" ],
-            "visibility_rules": [ "$darkraiGoal" ]
+            "visibility_rules": [
+              "$darkraiGoal"
+            ]
           },
           {
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Temporal Tower" ],
+            "access_rules": [
+              "Complete Temporal Tower"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$late_missions,$darkraiGoal" ]
+            "visibility_rules": [
+              "$late_missions,$darkraiGoal"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Temporal Tower" ],
+            "access_rules": [
+              "Complete Temporal Tower"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$late_outlaws,$darkraiGoal" ]
+            "visibility_rules": [
+              "$late_outlaws,$darkraiGoal"
+            ]
           }
         ],
         "map_locations": [
@@ -2104,7 +2621,9 @@
       },
       {
         "name": "Serenity River (8F)",
-        "access_rules": [ "Serenity River" ],
+        "access_rules": [
+          "Serenity River"
+        ],
         "sections": [
           {
             "name": "Complete Serenity River"
@@ -2113,61 +2632,81 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Serenity River" ],
+            "access_rules": [
+              "Complete Serenity River"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Serenity River" ],
+            "access_rules": [
+              "Complete Serenity River"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Poliwag",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/poliwag.png",
-            "chest_opened_img": "images/pokemon/gen1/poliwag-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/poliwag-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Wooper",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/wooper.png",
-            "chest_opened_img": "images/pokemon/gen2/wooper-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/wooper-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Lotad",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/lotad.png",
-            "chest_opened_img": "images/pokemon/gen3/lotad-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/lotad-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           },
           {
             "name": "Barboach",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen3/barboach.png",
-            "chest_opened_img": "images/pokemon/gen3/barboach-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/barboach-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Masquerain",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen3/masquerain.png",
-            "chest_opened_img": "images/pokemon/gen3/masquerain-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/masquerain-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Kecleon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "$recruitEndInLogic",
             "chest_unopened_img": "images/pokemon/gen3/kecleon.png",
-            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, LongLocations, RecruitLongLocations, $canBeRecruited|0"
+            ]
           }
         ],
         "map_locations": [
@@ -2177,11 +2716,12 @@
             "y": 172
           }
         ]
-
       },
       {
         "name": "Landslide Cave (13F)",
-        "access_rules": [ "Landslide Cave" ],
+        "access_rules": [
+          "Landslide Cave"
+        ],
         "sections": [
           {
             "name": "Complete Landslide Cave"
@@ -2190,75 +2730,99 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Landslide Cave" ],
+            "access_rules": [
+              "Complete Landslide Cave"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Landslide Cave" ],
+            "access_rules": [
+              "Complete Landslide Cave"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Venomoth",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen1/venomoth.png",
-            "chest_opened_img": "images/pokemon/gen1/venomoth-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/venomoth-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Ampharos",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen2/ampharos.png",
-            "chest_opened_img": "images/pokemon/gen2/ampharos-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/ampharos-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Granbull",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen2/granbull.png",
-            "chest_opened_img": "images/pokemon/gen2/granbull-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/granbull-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Shuckle",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/shuckle.png",
-            "chest_opened_img": "images/pokemon/gen2/shuckle-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/shuckle-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Dustox",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/dustox.png",
-            "chest_opened_img": "images/pokemon/gen3/dustox-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/dustox-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
-            "name": "Wormadam Trash Cloak",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "name": "Wormadam",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/wormadam_t.png",
-            "chest_opened_img": "images/pokemon/gen4/wormadam_t-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/wormadam_t-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Gible",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/gible.png",
-            "chest_opened_img": "images/pokemon/gen4/gible-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/gible-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Kecleon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "$recruitEndInLogic",
             "chest_unopened_img": "images/pokemon/gen3/kecleon.png",
-            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, LongLocations, RecruitLongLocations, $canBeRecruited|0"
+            ]
           }
         ],
         "map_locations": [
@@ -2268,11 +2832,12 @@
             "y": 180
           }
         ]
-
       },
       {
         "name": "Lush Prairie (6F)",
-        "access_rules": [ "Lush Prairie" ],
+        "access_rules": [
+          "Lush Prairie"
+        ],
         "sections": [
           {
             "name": "Complete Lush Prairie"
@@ -2281,75 +2846,99 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Lush Prairie" ],
+            "access_rules": [
+              "Complete Lush Prairie"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Lush Prairie" ],
+            "access_rules": [
+              "Complete Lush Prairie"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Exeggcute",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5549999999999999]",
             "chest_unopened_img": "images/pokemon/gen1/exeggcute.png",
-            "chest_opened_img": "images/pokemon/gen1/exeggcute-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/exeggcute-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5549999999999999"
+            ]
           },
           {
             "name": "Skiploom",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen2/skiploom.png",
-            "chest_opened_img": "images/pokemon/gen2/skiploom-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/skiploom-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Yanma",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/yanma.png",
-            "chest_opened_img": "images/pokemon/gen2/yanma-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/yanma-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Silcoon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen3/silcoon.png",
-            "chest_opened_img": "images/pokemon/gen3/silcoon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/silcoon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.395"
+            ]
           },
           {
             "name": "Beautifly",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/beautifly.png",
-            "chest_opened_img": "images/pokemon/gen3/beautifly-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/beautifly-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Cascoon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.395]",
             "chest_unopened_img": "images/pokemon/gen3/cascoon.png",
-            "chest_opened_img": "images/pokemon/gen3/cascoon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/cascoon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.395"
+            ]
           },
           {
-            "name": "Burmy Plant Cloak",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "name": "Burmy",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/burmy_p.png",
-            "chest_opened_img": "images/pokemon/gen4/burmy_p-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/burmy_p-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Kecleon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "$recruitEndInLogic",
             "chest_unopened_img": "images/pokemon/gen3/kecleon.png",
-            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, LongLocations, RecruitLongLocations, $canBeRecruited|0"
+            ]
           }
         ],
         "map_locations": [
@@ -2359,11 +2948,12 @@
             "y": 172
           }
         ]
-
       },
       {
         "name": "Tiny Meadow (5F)",
-        "access_rules": [ "Tiny Meadow" ],
+        "access_rules": [
+          "Tiny Meadow"
+        ],
         "sections": [
           {
             "name": "Complete Tiny Meadow"
@@ -2372,47 +2962,63 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Tiny Meadow" ],
+            "access_rules": [
+              "Complete Tiny Meadow"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Tiny Meadow" ],
+            "access_rules": [
+              "Complete Tiny Meadow"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Skiploom",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen2/skiploom.png",
-            "chest_opened_img": "images/pokemon/gen2/skiploom-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/skiploom-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Breloom",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen3/breloom.png",
-            "chest_opened_img": "images/pokemon/gen3/breloom-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/breloom-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Staravia",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/staravia.png",
-            "chest_opened_img": "images/pokemon/gen4/staravia-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/staravia-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Kecleon",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "$recruitEndInLogic",
             "chest_unopened_img": "images/pokemon/gen3/kecleon.png",
-            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/kecleon-gray.png",
+            "visibility_rules": [
+              "RecruitAll, LongLocations, RecruitLongLocations, $canBeRecruited|0"
+            ]
           }
         ],
         "map_locations": [
@@ -2422,11 +3028,12 @@
             "y": 196
           }
         ]
-
       },
       {
         "name": "Labyrinth Cave (10F)",
-        "access_rules": [ "Labyrinth Cave" ],
+        "access_rules": [
+          "Labyrinth Cave"
+        ],
         "sections": [
           {
             "name": "Complete Labyrinth Cave"
@@ -2435,47 +3042,63 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Labyrinth Cave" ],
+            "access_rules": [
+              "Complete Labyrinth Cave"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Labyrinth Cave" ],
+            "access_rules": [
+              "Complete Labyrinth Cave"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Nidorina",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen1/nidorina.png",
-            "chest_opened_img": "images/pokemon/gen1/nidorina-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/nidorina-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Nidorino",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5]",
             "chest_unopened_img": "images/pokemon/gen1/nidorino.png",
-            "chest_opened_img": "images/pokemon/gen1/nidorino-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/nidorino-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5"
+            ]
           },
           {
             "name": "Golbat",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.45]",
             "chest_unopened_img": "images/pokemon/gen1/golbat.png",
-            "chest_opened_img": "images/pokemon/gen1/golbat-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/golbat-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.45"
+            ]
           },
           {
             "name": "Machop",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/machop.png",
-            "chest_opened_img": "images/pokemon/gen1/machop-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/machop-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           }
         ],
         "map_locations": [
@@ -2485,11 +3108,12 @@
             "y": 140
           }
         ]
-
       },
       {
         "name": "Oran Forest (5F)",
-        "access_rules": [ "Oran Forest" ],
+        "access_rules": [
+          "Oran Forest"
+        ],
         "sections": [
           {
             "name": "Complete Oran Forest"
@@ -2498,68 +3122,90 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Oran Forest" ],
+            "access_rules": [
+              "Complete Oran Forest"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$early_missions" ]
+            "visibility_rules": [
+              "$early_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Oran Forest" ],
+            "access_rules": [
+              "Complete Oran Forest"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$early_outlaws" ]
+            "visibility_rules": [
+              "$early_outlaws"
+            ]
           },
           {
             "name": "Caterpie",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/caterpie.png",
-            "chest_opened_img": "images/pokemon/gen1/caterpie-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/caterpie-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Hoppip",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen2/hoppip.png",
-            "chest_opened_img": "images/pokemon/gen2/hoppip-gray.png"
+            "chest_opened_img": "images/pokemon/gen2/hoppip-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Starly",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/starly.png",
-            "chest_opened_img": "images/pokemon/gen4/starly-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/starly-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Budew",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/budew.png",
-            "chest_opened_img": "images/pokemon/gen4/budew-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/budew-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
-            "name": "Burmy Trash Cloak",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "name": "Burmy",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen4/burmy_t.png",
-            "chest_opened_img": "images/pokemon/gen4/burmy_t-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/burmy_t-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Oddish",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.577]",
             "chest_unopened_img": "images/pokemon/gen1/oddish.png",
-            "chest_opened_img": "images/pokemon/gen1/oddish-gray.png"
+            "chest_opened_img": "images/pokemon/gen1/oddish-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.577"
+            ]
           },
           {
             "name": "Wurmple",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "[$isRecruitInLogic|0.5589999999999999]",
             "chest_unopened_img": "images/pokemon/gen3/wurmple.png",
-            "chest_opened_img": "images/pokemon/gen3/wurmple-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/wurmple-gray.png",
+            "visibility_rules": [
+              "RecruitAll, $canBeRecruited|0.5589999999999999"
+            ]
           }
         ],
         "map_locations": [
@@ -2572,7 +3218,9 @@
       },
       {
         "name": "Star Cave (15F)",
-        "access_rules": [ "Star Cave" ],
+        "access_rules": [
+          "Star Cave"
+        ],
         "sections": [
           {
             "name": "Complete Star Cave"
@@ -2581,26 +3229,36 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Star Cave" ],
+            "access_rules": [
+              "Complete Star Cave"
+            ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$late_missions" ]
+            "visibility_rules": [
+              "$late_missions"
+            ]
           },
           {
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Star Cave" ],
+            "access_rules": [
+              "Complete Star Cave"
+            ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$late_outlaws" ]
+            "visibility_rules": [
+              "$late_outlaws"
+            ]
           },
           {
             "name": "Jirachi",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
+            "access_rules": "$recruitEndInLogic",
             "chest_unopened_img": "images/pokemon/gen3/jirachi.png",
-            "chest_opened_img": "images/pokemon/gen3/jirachi-gray.png"
+            "chest_opened_img": "images/pokemon/gen3/jirachi-gray.png",
+            "visibility_rules": [
+              "RecruitAll, LongLocations, RecruitLongLocations, $canBeRecruited|1.495"
+            ]
           }
         ],
         "map_locations": [
@@ -2610,8 +3268,7 @@
             "y": 192
           }
         ]
-
       }
-	]
+    ]
   }
 ]

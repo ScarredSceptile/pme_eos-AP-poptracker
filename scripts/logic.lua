@@ -35,11 +35,10 @@ function canAccessDarkCrater()
 		local instrumentGoal = Tracker:ProviderCountForCode("RequiredInstruments")
 		return instrumentCount >= instrumentGoal and Tracker:ProviderCountForCode("Complete Temporal Tower")
 	end
-	return Tracker:ProviderCountForCode("Dark Crater") == 1
+	return false
 end
 
 function canAccessSkyPeak(...)
-	print(...)
 	if Tracker:ProviderCountForCode("UnlockAllSkyPeakMode") == 1 then
 		return Tracker:ProviderCountForCode("Sky Peak")
 	end
@@ -91,7 +90,6 @@ end
 
 function aegisAccess(sealNum)
 	local seal = tonumber(sealNum)
-	print(seal.." aegis")
 	if Tracker:ProviderCountForCode("CursedAegisCave") == 0 then
 		return Tracker:ProviderCountForCode("Progressive Seal") >= seal
 	end
@@ -108,4 +106,95 @@ function hasBags(num)
 		return true
 	end
 	return false
+end
+
+function getPlayerDifficulty()
+	local staticAdd = 0.495
+	local stage = Tracker:FindObjectForCode("RecruitDifficulty").CurrentStage
+	if stage == 0 then
+		return 0.2 + staticAdd
+	end
+	if stage == 1 then
+		return 0.1 + staticAdd
+	end
+	if stage == 2 then
+		return 0.05 + staticAdd
+	end
+	if stage == 3 then
+		return 0.001 + staticAdd
+	end
+	return 0.5
+end
+
+function isRecruitInLogic(odds)
+	odds = tonumber(odds)
+	local difficulty = tonumber(getPlayerDifficulty())
+	print()
+	if odds >= difficulty then
+		return recruitStartInLogic()
+	end
+	if odds + 0.100 >= difficulty then
+		return recruitEarlyInLogic()
+	end
+	if odds + 0.225 >= difficulty then
+		return recruitMidInLogic()
+	end
+	if odds + 0.326 >= difficulty then
+		return recruitLateInLogic()
+	end
+	if odds + 0.496 >= difficulty then
+		return recruitEndInLogic()
+	end
+	return false
+end
+
+function canBeRecruited(odds)
+	odds = tonumber(odds)
+	local difficulty = tonumber(getPlayerDifficulty())
+	if odds >= difficulty then
+		return true
+	end
+	if odds + 0.100 >= difficulty then
+		return true
+	end
+	if odds + 0.225 >= difficulty then
+		return darkraiGoal()
+	end
+	if odds + 0.326 >= difficulty then
+		return darkraiGoal()
+	end
+	if odds + 0.496 >= difficulty then
+		return darkraiGoal() and Tracker:ProviderCountForCode("LongLocations") and Tracker:ProviderCountForCode("RecruitLongLocations")
+	end
+	return false
+end
+
+function recruitStartInLogic()
+	print("Test")
+	return Tracker:ProviderCountForCode("Recruitment") == 1 or Tracker:ProviderCountForCode("ProgressiveRecruitment") >= 1
+end
+
+function recruitEarlyInLogic()
+	return recruitStartInLogic() and (Tracker:ProviderCountForCode("Amber Tear") == 1 or Tracker:ProviderCountForCode("Friend Bow") == 1 or Tracker:ProviderCountForCode("Golden Mask") == 1 or Tracker:ProviderCountForCode("ProgressiveRecruitment") >= 2)
+end
+
+function recruitMidInLogic()
+	if not darkraiGoal() then
+		return false
+	end
+	return recruitEarlyInLogic() and Tracker:ProviderCountForCode("Complete Temporal Tower") and (Tracker:ProviderCountForCode("Amber Tear") == 1 or Tracker:ProviderCountForCode("Golden Mask") == 1 or Tracker:ProviderCountForCode("ProgressiveRecruitment") >= 3)
+end
+
+function recruitLateInLogic()
+	if not darkraiGoal() then
+		return false
+	end
+	return recruitMidInLogic() and (Tracker:ProviderCountForCode("Golden Mask") == 1 or Tracker:ProviderCountForCode("ProgressiveRecruitment") >= 4)
+end
+
+function recruitEndInLogic()
+	if not darkraiGoal() and Tracker:ProviderCountForCode("LongLocations") and Tracker:ProviderCountForCode("RecruitLongLocations") then
+		return false
+	end
+	return recruitLateInLogic() and Tracker:ProviderCountForCode("Secret Rank") and (Tracker:ProviderCountForCode("Secret Slab") or Tracker:ProviderCountForCode("Mystery Part") or Tracker:ProviderCountForCode("ProgressiveRecruitment"))
 end

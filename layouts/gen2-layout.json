@@ -73,46 +73,15 @@
                 "Slowking",
                 "Misdreavus",
                 "Unown",
-                "Unown_!",
-                "Unown_A",
-                "Unown_B",
-                "Unown_C",
-                "Unown_D",
-                "Unown_E"
-              ],
-              [
-                "Unown_F",
-                "Unown_G",
-                "Unown_H",
-                "Unown_I",
-                "Unown_J",
-                "Unown_K",
-                "Unown_L",
-                "Unown_M",
-                "Unown_N",
-                "Unown_O",
-                "Unown_P",
-                "Unown_Q",
-                "Unown_R",
-                "Unown_S"
-              ],
-              [
-                "Unown_T",
-                "Unown_U",
-                "Unown_V",
-                "Unown_W",
-                "Unown_X",
-                "Unown_Y",
-                "Unown_Z",
                 "Wobbuffet",
                 "Girafarig",
                 "Pineco",
                 "Forretress",
                 "Dunsparce",
-                "Gligar",
-                "Steelix"
+                "Gligar"
               ],
               [
+                "Steelix",
                 "Snubbull",
                 "Granbull",
                 "Qwilfish",
@@ -125,10 +94,10 @@
                 "Slugma",
                 "Magcargo",
                 "Swinub",
-                "Piloswine",
-                "Corsola"
+                "Piloswine"
               ],
               [
+                "Corsola",
                 "Remoraid",
                 "Octillery",
                 "Delibird",
@@ -142,9 +111,9 @@
                 "Porygon2",
                 "Stantler",
                 "Smeargle",
-                "Tyrogue"
               ],
               [
+                "Tyrogue",
                 "Hitmontop",
                 "Smoochum",
                 "Elekid",
@@ -157,12 +126,11 @@
                 "Larvitar",
                 "Pupitar",
                 "Tyranitar",
-                "Lugia",
-                "Ho-Oh"
+                "Lugia"
               ],
               [
-                "Celebi",
-                "Celebi_S"
+                "Ho-Oh",
+                "Celebi"
               ]
             ]
           }

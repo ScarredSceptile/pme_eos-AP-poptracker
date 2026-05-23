@@ -150,40 +150,16 @@
     "img": "images/pokemon/Gen4/Bastiodon.png"
   },
   {
-    "name": "Burmy Plant Cloak",
+    "name": "Burmy",
     "type": "toggle",
     "codes": "Burmy_P",
     "img": "images/pokemon/Gen4/Burmy_P.png"
   },
   {
-    "name": "Burmy Sandy Cloak",
-    "type": "toggle",
-    "codes": "Burmy_S",
-    "img": "images/pokemon/Gen4/Burmy_S.png"
-  },
-  {
-    "name": "Burmy Trash Cloak",
-    "type": "toggle",
-    "codes": "Burmy_T",
-    "img": "images/pokemon/Gen4/Burmy_T.png"
-  },
-  {
-    "name": "Wormadam Plant Cloak",
+    "name": "Wormadam",
     "type": "toggle",
     "codes": "Wormadam_P",
     "img": "images/pokemon/Gen4/Wormadam_P.png"
-  },
-  {
-    "name": "Wormadam Sandy Cloak",
-    "type": "toggle",
-    "codes": "Wormadam_S",
-    "img": "images/pokemon/Gen4/Wormadam_S.png"
-  },
-  {
-    "name": "Wormadam Trash Cloak",
-    "type": "toggle",
-    "codes": "Wormadam_T",
-    "img": "images/pokemon/Gen4/Wormadam_T.png"
   },
   {
     "name": "Mothim",
@@ -234,28 +210,16 @@
     "img": "images/pokemon/Gen4/Cherrim.png"
   },
   {
-    "name": "Shellos East Sea",
+    "name": "Shellos",
     "type": "toggle",
     "codes": "Shellos_E",
     "img": "images/pokemon/Gen4/Shellos_E.png"
   },
   {
-    "name": "Shellos West Sea",
-    "type": "toggle",
-    "codes": "Shellos_W",
-    "img": "images/pokemon/Gen4/Shellos_W.png"
-  },
-  {
-    "name": "Gastrodon East Sea",
+    "name": "Gastrodon",
     "type": "toggle",
     "codes": "Gastrodon_E",
     "img": "images/pokemon/Gen4/Gastrodon_E.png"
-  },
-  {
-    "name": "Gastrodon West Sea",
-    "type": "toggle",
-    "codes": "Gastrodon_W",
-    "img": "images/pokemon/Gen4/Gastrodon_W.png"
   },
   {
     "name": "Ambipom",
@@ -312,10 +276,10 @@
     "img": "images/pokemon/Gen4/Purugly.png"
   },
   {
-    "name": "Chincling",
+    "name": "Chingling",
     "type": "toggle",
-    "codes": "Chincling",
-    "img": "images/pokemon/Gen4/Chincling.png"
+    "codes": "Chingling",
+    "img": "images/pokemon/Gen4/Chingling.png"
   },
   {
     "name": "Stunky",

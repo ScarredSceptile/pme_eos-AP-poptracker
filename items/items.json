@@ -187,6 +187,13 @@
 	  "img": "images/items/recruitment.png"
   },
   {
+	  "name": "Progressive Recruitment",
+	  "type": "consumable",
+	  "codes": "ProgressiveRecruitment",
+      "max_quantity": 5,
+	  "img": "images/items/recruitment.png"
+  },
+  {
 	  "name": "Formation Control",
 	  "type": "toggle",
 	  "codes": "Formation Control",

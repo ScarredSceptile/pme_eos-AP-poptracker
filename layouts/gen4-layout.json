@@ -45,14 +45,10 @@
                 "Shieldon",
                 "Bastiodon",
                 "Burmy_P",
-                "Burmy_S",
-                "Burmy_T"
+                "Wormadam_P",
+                "Mothim",
               ],
               [
-                "Wormadam_P",
-                "Wormadam_S",
-                "Wormadam_T",
-                "Mothim",
                 "Combee",
                 "Vespiquen",
                 "Pachirisu",
@@ -61,32 +57,30 @@
                 "Cherubi",
                 "Cherrim",
                 "Shellos_E",
-                "Shellos_W",
-                "Gastrodon_E"
-              ],
-              [
-                "Gastrodon_W",
+                "Gastrodon_E",
                 "Ambipom",
                 "Drifloon",
                 "Drifblim",
                 "Buneary",
                 "Lopunny",
+              ],
+              [
                 "Mismagius",
                 "Honchkrow",
                 "Glameow",
                 "Purugly",
-                "Chincling",
+                "Chingling",
                 "Stunky",
                 "Skuntank",
-                "Bronzor"
-              ],
-              [
+                "Bronzor",
                 "Bronzong",
                 "Bonsly",
                 "Mime Jr.",
                 "Happiny",
                 "Chatot",
-                "Spiritomb",
+                "Spiritomb"
+              ],
+              [
                 "Gible",
                 "Gabite",
                 "Garchomp",
@@ -94,15 +88,15 @@
                 "Riolu",
                 "Lucario",
                 "Hippopotas",
-                "Hippowdon"
-              ],
-              [
+                "Hippowdon",
                 "Skorupi",
                 "Drapion",
                 "Croagunk",
                 "Toxicroak",
                 "Carnivine",
                 "Finneon",
+              ],
+              [
                 "Lumineon",
                 "Mantyke",
                 "Snover",
@@ -110,15 +104,15 @@
                 "Weavile",
                 "Magnezone",
                 "Lickilicky",
-                "Rhyperior"
-              ],
-              [
+                "Rhyperior",
                 "Tangrowth",
                 "Electivire",
                 "Magmortar",
                 "Togekiss",
                 "Yanmega",
                 "Leafeon",
+              ],
+              [
                 "Glaceon",
                 "Gliscor",
                 "Mamoswine",
@@ -126,15 +120,15 @@
                 "Gallade",
                 "Probopass",
                 "Dusknoir",
-                "Froslass"
-              ],
-              [
+                "Froslass",
                 "Rotom",
                 "Uxie",
                 "Mesprit",
                 "Azelf",
                 "Dialga",
                 "Palkia",
+              ],
+              [
                 "Heatran",
                 "Regigigas",
                 "Giratina",
