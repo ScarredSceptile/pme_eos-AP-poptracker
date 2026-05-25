@@ -112,10 +112,10 @@ function getPlayerDifficulty()
 	local staticAdd = 0.495
 	local stage = Tracker:FindObjectForCode("RecruitDifficulty").CurrentStage
 	if stage == 0 then
-		return 0.2 + staticAdd
+		return 0.175 + staticAdd
 	end
 	if stage == 1 then
-		return 0.1 + staticAdd
+		return 0.125 + staticAdd
 	end
 	if stage == 2 then
 		return 0.05 + staticAdd
@@ -166,6 +166,50 @@ function canBeRecruited(odds)
 		return darkraiGoal() and Tracker:ProviderCountForCode("LongLocations") and Tracker:ProviderCountForCode("RecruitLongLocations")
 	end
 	return false
+end
+
+function isEvolutionInLogic(odds, level)
+	odds = tonumber(odds)
+	local difficulty = tonumber(getPlayerDifficulty())
+	if odds >= difficulty then
+		return level <= 10
+	end
+	if odds + 0.100 >= difficulty and level ~= 0 then
+		return recruitEarlyInLogic() and level <= 20
+	end
+	if odds + 0.225 >= difficulty and level ~= 0 then
+		return recruitMidInLogic() and level <= 30
+	end
+	if odds + 0.326 >= difficulty then
+		return recruitLateInLogic() and level <= 45
+	end
+	if odds + 0.496 >= difficulty then
+		return recruitEndInLogic()
+	end
+	return false
+end
+
+function canEvolve(odds, level)
+	odds = tonumber(odds)
+	level = tonumber(level)
+	local difficulty = tonumber(getPlayerDifficulty())
+	if odds >= difficulty then
+		return level <= 10
+	end
+	if odds + 0.100 >= difficulty then
+		return level <= 20
+	end
+	if odds + 0.225 >= difficulty then
+		return darkraiGoal() and level <= 30
+	end
+	if odds + 0.326 >= difficulty then
+		return darkraiGoal() and level <= 45
+	end
+	if odds + 0.496 >= difficulty then
+		return darkraiGoal() and Tracker:ProviderCountForCode("LongLocations") and Tracker:ProviderCountForCode("RecruitLongLocations")
+	end
+	return false
+	
 end
 
 function recruitEarlyInLogic()

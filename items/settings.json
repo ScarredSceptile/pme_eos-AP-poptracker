@@ -333,22 +333,22 @@
     "codes": "RecruitDifficulty",
     "stages": [
       {
-        "img": "images/settings/bronze-gray.png",
+        "img": "images/settings/easyrecruit.png",
         "codes": "RecruitDifficulty,EasyRecruit",
         "name": "Recruit Difficulty - Easy"
       },
       {
-        "img": "images/settings/bronze.png",
+        "img": "images/settings/mediumrecruit.png",
         "codes": "RecruitDifficulty,NormalRecruit",
         "name": "Recruit Difficulty - Normal"
       },
       {
-        "img": "images/settings/silver.png",
+        "img": "images/settings/hardrecruit.png",
         "codes": "RecruitDifficulty,HardRecruit",
         "name": "Recruit Difficulty - Hard"
       },
       {
-        "img": "images/settings/gold.png",
+        "img": "images/settings/extremerecruit.png",
         "codes": "RecruitDifficulty,ExtremeRecruit",
         "name": "Recruit Difficulty - Extreme"
       }
