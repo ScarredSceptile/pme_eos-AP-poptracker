@@ -152,13 +152,13 @@
   {
     "name": "Burmy",
     "type": "toggle",
-    "codes": "Burmy_P",
+    "codes": "Burmy",
     "img": "images/pokemon/Gen4/Burmy_P.png"
   },
   {
     "name": "Wormadam",
     "type": "toggle",
-    "codes": "Wormadam_P",
+    "codes": "Wormadam",
     "img": "images/pokemon/Gen4/Wormadam_P.png"
   },
   {
@@ -212,13 +212,13 @@
   {
     "name": "Shellos",
     "type": "toggle",
-    "codes": "Shellos_E",
+    "codes": "Shellos",
     "img": "images/pokemon/Gen4/Shellos_E.png"
   },
   {
     "name": "Gastrodon",
     "type": "toggle",
-    "codes": "Gastrodon_E",
+    "codes": "Gastrodon",
     "img": "images/pokemon/Gen4/Gastrodon_E.png"
   },
   {

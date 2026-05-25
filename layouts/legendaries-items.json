@@ -1,0 +1,49 @@
+{
+	"legendaries": {
+        "type": "group",
+        "header": "Legendaries",
+        "dock": "bottom",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "10, 10",
+            "h_alignment": "center",
+            "rows": [
+              [
+                "ArticunoItem",
+                "MewItem",
+                "CelebiItem",
+                "RegirockItem",
+                "RegiceItem"
+              ],
+              [
+                "RegisteelItem",
+                "KyogreItem",
+                "GroudonItem",
+                "RayquazaItem",
+                "UxieItem"
+              ],
+              [
+                "MespritItem",
+                "AzelfItem",
+                "DialgaItem",
+                "Primal Dialga",
+                "PalkiaItem"
+              ],
+              [
+                "HeatranItem",
+                "RegigigasItem",
+                "GiratinaItem",
+                "CresseliaItem",
+                "PhioneItem"
+              ],
+              [
+                "ManaphyItem",
+                "ShayminItem"
+              ]
+            ]
+          }
+        ]
+	}
+}

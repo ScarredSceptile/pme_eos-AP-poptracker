@@ -163,25 +163,26 @@ function canBeRecruited(odds)
 		return darkraiGoal()
 	end
 	if odds + 0.496 >= difficulty then
-		return darkraiGoal() and Tracker:ProviderCountForCode("LongLocations") and Tracker:ProviderCountForCode("RecruitLongLocations")
+		return darkraiGoal() and Tracker:ProviderCountForCode("LongLocations") == 1 and Tracker:ProviderCountForCode("RecruitLongLocations") == 1
 	end
 	return false
 end
 
 function isEvolutionInLogic(odds, level)
 	odds = tonumber(odds)
+	level = tonumber(odds)
 	local difficulty = tonumber(getPlayerDifficulty())
-	if odds >= difficulty then
-		return level <= 10
+	if odds >= difficulty and level <= 10 then
+		return true
 	end
-	if odds + 0.100 >= difficulty and level ~= 0 then
-		return recruitEarlyInLogic() and level <= 20
+	if odds + 0.100 >= difficulty and level ~= 0 and level <= 20 then
+		return recruitEarlyInLogic() 
 	end
-	if odds + 0.225 >= difficulty and level ~= 0 then
-		return recruitMidInLogic() and level <= 30
+	if odds + 0.225 >= difficulty and level ~= 0 and level <= 30 then
+		return recruitMidInLogic()
 	end
-	if odds + 0.326 >= difficulty then
-		return recruitLateInLogic() and level <= 45
+	if odds + 0.326 >= difficulty and level <= 45 then
+		return recruitLateInLogic()
 	end
 	if odds + 0.496 >= difficulty then
 		return recruitEndInLogic()
@@ -193,20 +194,24 @@ function canEvolve(odds, level)
 	odds = tonumber(odds)
 	level = tonumber(level)
 	local difficulty = tonumber(getPlayerDifficulty())
-	if odds >= difficulty then
-		return level <= 10
+	if odds >= difficulty and level <= 10 then
+		return true
 	end
-	if odds + 0.100 >= difficulty then
-		return level <= 20
+	if odds + 0.100 >= difficulty and level <= 20 then
+		return true
 	end
-	if odds + 0.225 >= difficulty then
-		return darkraiGoal() and level <= 30
+	if odds + 0.225 >= difficulty and level <= 30 then
+		return darkraiGoal()
 	end
-	if odds + 0.326 >= difficulty then
-		return darkraiGoal() and level <= 45
+	if odds + 0.326 >= difficulty and level <= 45 then
+		return darkraiGoal()
 	end
 	if odds + 0.496 >= difficulty then
-		return darkraiGoal() and Tracker:ProviderCountForCode("LongLocations") and Tracker:ProviderCountForCode("RecruitLongLocations")
+		print("Dragonite and Salamence should be here, so two of em")
+		print(level)
+		local result = darkraiGoal() and Tracker:ProviderCountForCode("LongLocations") == 1 and Tracker:ProviderCountForCode("RecruitLongLocations") == 1
+		print(result)
+		return result
 	end
 	return false
 	
@@ -231,8 +236,8 @@ function recruitLateInLogic()
 end
 
 function recruitEndInLogic()
-	if not darkraiGoal() and Tracker:ProviderCountForCode("LongLocations") and Tracker:ProviderCountForCode("RecruitLongLocations") then
+	if not darkraiGoal() and Tracker:ProviderCountForCode("LongLocations") == 1 and Tracker:ProviderCountForCode("RecruitLongLocations") == 1 then
 		return false
 	end
-	return recruitLateInLogic() and Tracker:ProviderCountForCode("Secret Rank") and (Tracker:ProviderCountForCode("Secret Slab") or Tracker:ProviderCountForCode("Mystery Part") or Tracker:ProviderCountForCode("ProgressiveRecruitment"))
+	return recruitLateInLogic() and Tracker:ProviderCountForCode("Secret Rank") == 1 and (Tracker:ProviderCountForCode("Secret Slab") == 1 or Tracker:ProviderCountForCode("Mystery Part") == 1 or Tracker:ProviderCountForCode("ProgressiveRecruitment") == 5)
 end

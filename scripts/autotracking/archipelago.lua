@@ -279,6 +279,9 @@ function apply_slot_data(slot_data)
 	if slot_data["RecruitPercentageRequired"] then
 		Tracker:FindObjectForCode("RecruitDifficulty").CurrentStage = tonumber(slot_data["RecruitPercentageRequired"])
 	end
+	if slot_data["RecruitFriendItems"] then
+		Tracker:FindObjectForCode("ProgressiveRecruitItems").Active = tonumber(slot_data["RecruitFriendItems"]) == 1
+	end
 end
 
 -- called right after an AP slot is connected
